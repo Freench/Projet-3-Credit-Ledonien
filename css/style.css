@@ -7,7 +7,7 @@
 #decouverte {
     clip-path: polygon(22% 10%, 100% 3%, 100% 97%, 20% 95%, 15% 50%);
     background-color: #001d26;
-    width: 1200px;
+    width: 1000px;
     height: 600px;
     display: flex;
     justify-content: space-between;

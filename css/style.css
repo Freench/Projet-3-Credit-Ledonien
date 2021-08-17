@@ -1,4 +1,10 @@
 /* FONTS */
+h2 {
+    color:#001d26;
+    font-family:ITC_Eras_Bold;
+    font-size: 55px;
+}
+
 
 @font-face {
    font-family: ITC_Eras_Bold; 

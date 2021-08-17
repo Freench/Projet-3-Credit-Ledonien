@@ -1,5 +1,49 @@
-#decouverte{
-    background-color: black;
-    width: 800px;
-    height: 500px;
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(../fonts/OpenSans-SemiBold.ttf) format("truetype");
 }
+
+/* SECTION DECOUVERTE */
+#decouverte {
+    clip-path: polygon(22% 10%, 100% 3%, 100% 97%, 20% 95%, 15% 50%);
+    background-color: #001d26;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LES QUATRES PARTIES DE LA SECTION DECOUVERTE*/
+.names-Of-Articles {
+    display: flex;
+    margin: 250px 0 0 260px;
+}
+
+/*CARACTERISTIQUES DES BOUTONS*/
+.article-name button{
+    background-color: #001d26;
+    border: none;
+    text-align: left;
+    border-bottom: 2px solid;
+    width: 400px;
+}
+/*CHANGEMENT DE COULEUR DES BOUTONS*/
+.article-name button{
+    color: rgb(255, 255, 255, 0.3);
+}
+.article-name button:hover{
+    transition:  ease-out 0.5s;
+    color: rgb(255, 255, 255, 1);
+}
+/*ALIGNEMENT DES PARTIES*/
+li {
+    display: flex;
+    flex-direction: column;
+}
+/*POLICE ET LA TAILLE D'ECRITURE*/
+h3 {
+    font-family: OpenSans-SemiBold;
+    font-size: 15px;   
+}
+
+/* dimension d'une partie de la section découverte */

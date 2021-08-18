@@ -1,0 +1,102 @@
+.simulateur{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* width: 35%; */
+    height: 90vh;
+    border: solid 30px white;
+    /* justify-content: flex-start; */
+    row-gap: 2%;
+    box-shadow: 0px 0px 5px black;
+}
+.btn-simulateur{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10%;
+    width: 100%;
+    background-color: #008090;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* border: solid 2px red; */
+    /* margin: 5% 0px; */
+}
+.btn-simulateur-fleche{
+    margin-left: auto;
+}
+h2, h3{
+    margin: 0px;
+    font-family: ITC_Eras_Bold;
+}
+h2{
+    color: #001d26;
+    font-size: 44px;
+}
+h3{
+    font-size: 30px;
+}
+
+body{
+    background-color: #779bd6;
+    font-family: OpenSans-Regular;
+    color: #5b5c5e;
+    font-size: 24px;
+}
+.sous-titre{
+    font-size: 18px;
+}
+p{
+    margin: 0px;
+}
+
+
+
+
+@font-face {
+    font-family: ITC_Eras_Bold;
+    src: url(../fonts/ErasBoldITC.ttf) format("truetype");
+    }
+@font-face {
+    font-family: ERASBD;
+    src: url(../fonts/ERASBD.TTF) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-BoldItalic;
+    src: url(../fonts/OpenSans-BoldItalic.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-ExtraBoldItalic;
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url(../fonts/OpenSans-Italic.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts//OpenSans-Light.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-LightItalic;
+    src: url(../fonts/OpenSans-LightItalic.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(../fonts/OpenSans-SemiBold.ttf) format("truetype");
+    }
+@font-face {
+    font-family: OpenSans-SemiBoldItalic;
+    src: url(../fonts/OpenSans-SemiBoldItalic.ttf) format("truetype");
+    }

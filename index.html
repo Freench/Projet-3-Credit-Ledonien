@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Simulateur -->
+    <div class="simulateur">
+        <h2>Simulateur de crédit en ligne</h2>
+        <p>Quel type de crédit souhaitez-vous réaliser ?</p>
+
+        <!-- Les 3 boutons -->
+        <div class="btn-simulateur">
+            <img src="" alt="logo carte bancaire" class="logo-btn">
+            <div>
+                <h3>Prêt Personnel</h3>
+                <p class="sous-titre">Un crédit à partir de 5 000 €</p>
+            </div>
+            <img src="" alt="logo flèche droite" class="logo-btn btn-simulateur-fleche">
+        </div>
+        <div class="btn-simulateur">
+            <img src="" alt="logo carte bancaire" class="logo-btn">
+            <div>
+                <h3>Crédit renouvelable</h3>
+                <p class="sous-titre">Un crédit jusqu'à 3 000 €</p>
+            </div>
+            <img src="" alt="logo flèche droite" class="logo-btn btn-simulateur-fleche">
+        </div>
+        <div class="btn-simulateur">
+            <img src="" alt="logo carte bancaire" class="logo-btn">
+            <div>
+                <h3>Rachat de crédit</h3>
+                <p class="sous-titre">Regroupez tous vos crédits en un seul</p>
+            </div>
+            <img src="" alt="logo flèche droite" class="logo-btn btn-simulateur-fleche">
+        </div>
+        <!-- Fin les 3 boutons -->
+    </div>
+    <!-- Fin simulateur -->
+    <!-- Simulateur cliked -->
+    <div class="sumulateur-cliked">
+        <h2>Prêt Personnel</h2>
+        <p>Montant à emprunter</p>
+        <input type="number" id="emprun" name="emprun">
+        <p>Choisissez un montant entre 500 et 75 000 €</p>
+        <div class="mensualites-ou-duree">
+            <div class="mensuealites">
+                <p>Mensualités</p>
+                <input type="number" id="mensualites">
+                <p>De 10 à 12 000 €</p>
+            </div>
+            <div class="duree">
+                <p>ou durée</p>
+                <input type="number" id="duree">
+                <p>De 6 à 84 mois</p>
+            </div>
+        </div>
+    </div>
+    <script type = "text/javascript">
+    // Le script à pour but d'effectuer les calculs du simulateurs la difficulté est de détecter les deux derniers champs qui ont été modifiés et de calculer le 3ème
+        //Initialisation variables
+        let elementEmprun = document.getElementById('emprun')
+        let elementMensualites = document.getElementById('mensualites')
+        let elementDuree = document.getElementById('duree')
+        let ordreModification = []  // Sert savoir quels éléments parmis Emprun, Mensualites ou Durée ont été modifié en dernier et avant dernier
+
+        //Ecoute des 3 champs qui peuvent être modifiés
+        elementEmprun.addEventListener('input', function(){calculSimulateur('Emprun')});
+        elementDuree.addEventListener('input', function(){calculSimulateur('Duree')});
+        elementMensualites.addEventListener('input', function(){calculSimulateur('Mensualites')});
+
+
+        function calculSimulateur(dernierModifier){
+            let oldIndex = null
+            //Netoyage de l'ancienne position du drenier champ modifié
+            if ((oldIndex = ordreModification.indexOf(dernierModifier)) != -1){
+                ordreModification.splice(oldIndex, 1)
+            }
+            ordreModification.unshift(dernierModifier)
+            if (ordreModification.length >= 2){
+                if(dernierModifier == 'Emprun'){
+                    if(ordreModification[1]=='Mensualites'){
+                    document.getElementById('duree').value = Math.round(elementEmprun.value / elementMensualites.value)
+                    }
+                    else if(ordreModification[1]=='Duree'){
+                    document.getElementById('mensualites').value = Math.round(elementEmprun.value / elementDuree.value)
+                    }
+                }
+                else if(dernierModifier == "Mensualites"){
+                    if(ordreModification[1]=='Duree'){
+                    document.getElementById('emprun').value = Math.round(elementMensualites.value * elementDuree.value)
+                    }
+                    else if(ordreModification[1]=='Emprun'){
+                    document.getElementById('duree').value = Math.round(elementEmprun.value / elementMensualites.value)
+                    }
+                }
+                else if(dernierModifier == "Duree"){
+                    if(ordreModification[1]=='Mensualites'){
+                    document.getElementById('emprun').value = Math.round(elementDuree.value * elementMensualites.value)
+                    }
+                    else if(ordreModification[1]=='Emprun'){
+                    document.getElementById('mensualites').value = Math.round(elementEmprun.value / elementDuree.value)
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>

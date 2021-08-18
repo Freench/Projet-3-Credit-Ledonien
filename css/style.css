@@ -1,4 +1,6 @@
-
+body{
+   margin: 0;
+}
 h2 {
     color:#001d26;
     font-family:ITC_Eras_Bold;
@@ -8,9 +10,52 @@ h2 {
 nav {
    background-color: #fff;
    box-shadow: #000;
-   width : 45px;
-   height : 500px;
+   width : 80px;
+   height : 750px;
+   display:flex;
+   position:fixed;
+   flex-direction: column;
+   align-items: center;
+   
+   
+   
 }
+
+.scroll{
+   font-family:OpenSans-Regular;
+   font-size: 14px;
+   color: #8c8a8a;
+   transform:rotate(90deg);
+   margin-top: 300px;
+   letter-spacing: 2px;
+
+}
+
+.scrollbar {
+   height: 100px;
+   width: 2px;
+   background-color: #008090;
+   margin-top: 20px;
+}
+
+.container {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.shadowcircle {
+   
+   width: 35px;
+   height: 260px;
+   border-radius: 50%;
+   background-color: #fff;
+   z-index: -1;
+   margin-top : 20px;
+   margin-right:3px;
+   display:flex;
+   filter:drop-shadow(-19px 0px 25px rgb(94, 94, 94));
+}
+
 
 .lang{
     height: 30px;
@@ -19,6 +64,9 @@ nav {
     border: 1px solid #008090;
     border-radius: 50%;
     margin-bottom: 10px;
+    color:#008090;
+    font-family:OpenSans-Regular;
+    
 }
 .call{
     height: 30px;
@@ -27,6 +75,15 @@ nav {
     border: 1px solid #008090;
     border-radius: 50%;
     margin-bottom: 10px;
+    display:flex;
+   
+
+}
+#phone{
+   height: 100%;
+   width: 100%;
+   display:flex;
+
 }
 .search{
     height: 30px;
@@ -36,23 +93,43 @@ nav {
     border-radius: 50%;
 }
 
+#search{
+   height: 100%;
+   width: 100%;
+   display:flex;
+}
+
 .breadtop {
     height:2px;
     width: 30px;
     background-color: #008090;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
+    margin-top:6px;
 }
 .steak {
     height:2px;
     width: 20px;
     background-color: #008090;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     margin-left: 10px;
 }
 .breadbot {
     height:2px;
     width: 30px;
     background-color: #008090;
+    margin-bottom:-10px;
+    
+}
+
+.menu{
+   font-size:11px;
+   font-family: OpenSans-Regular;
+   color:#008090;
+}
+
+#menuburger {
+   margin-bottom : 15vh;
+   margin-top: 15px;
 }
 
 /* FONTS */

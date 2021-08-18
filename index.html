@@ -11,8 +11,8 @@
     <!-- Travail du caroussel --> 
 
     <div id="caroussel">
-        
-        <div class="frame fade">
+        <!-- Frame 1 -->
+        <div class="frame slide">
             <div class="offertitle">
                 <h2>Prêt Personnel multi-projets</h2>
             </div>
@@ -25,7 +25,8 @@
                 
             </div>
         </div>
-        <div class="frame fade">
+        <!-- Frame 2 -->
+        <div class="frame slide">
             <div class="offertitle">
                 <h2>Prêt Étudiant à la consommation</h2>
             </div>
@@ -37,7 +38,8 @@
                 
             </div>
         </div>
-        <div class="frame fade">
+        <!-- Frame 3 -->
+        <div class="frame slide">
             <div class="offertitle">
                 <h2>Prêt Immobilier projet d'avenir</h2>
             </div>
@@ -50,58 +52,46 @@
                 
             </div>
         </div>
-        <div class="frame fade">
-            <div class="offertitle">
-                <h2>Prêt Personnel multi-projets</h2>
-            </div>
-            <div class="maincontent">
-                <p class="modalities"><span class="percentage">4,07%</span> TAEG fixe <br/> Offre valable jusqu'au 31/08/2021 <br/><span class="condition">Pour 6 500€ empruntés sur 60 mois</span></p>
-            </div>
-
-            <div class="discoverbutton">
-                <input type="button" name="discover" id="discover" value="Découvrir">
-                
-            </div>
-        </div>
+        <!-- Sélecteur de frames -->
         <div class="frameselector">
+            <span class="dot" onclick="currentFrame(0)"></span>
             <span class="dot" onclick="currentFrame(1)"></span>
             <span class="dot" onclick="currentFrame(2)"></span>
-            <span class="dot" onclick="currentFrame(3)"></span>
         </div>
     
     </div>
 
     
       <script>
-        var frameIndex = 1;
+
+        var frameIndex = 0;
         showFrames(frameIndex);
+        // Je fixe mon index pour rappeler mes frames et les manipuler à la façon d'un ARRAY
 
         function currentFrame(n) {
             showFrames(frameIndex = n);
         }
+        // J'établis un parallèle entre l'index de ma classe currentFrame qui réagira onclick et ma future fonction qui gèrera mes frames
 
         function showFrames(n) {
-            var i;
-            var frames = document.getElementsByClassName("frame");
-            var dots = document.getElementsByClassName("dot");
-            if (n > frames.length)
-            {
-                frameIndex = 1;
-            }
-            if (n < 1) 
-            {
-                frameIndex = frames.length;
-            }
+            let i;
+            let frames = document.getElementsByClassName("frame");
+            let dots = document.getElementsByClassName("dot");           
+            
             for (i = 0; i < frames.length; i++)
             {
                 frames[i].style.display = "none";
             }
+            //J'initialise mon index à 0, tant qu'il est inférieur à la longueur de mon tableau, j'applique la classe display ="none"
             for (i = 0; i < dots.length; i++)
             {
                 dots[i].className = dots[i].className.replace(" active", "");
             }
-            frames[frameIndex-1].style.display = "block";
-            dots[frameIndex-1].className += " active";
+            //Pareil pour les dots, mais je retire la classe " active" définie en css (attention à l'espace)
+            frames[frameIndex].style.display = "block";
+            dots[frameIndex].className += " active";
+            //J'indique que les frames indexées doivent passer en style "block"
+            //Pareil pour le sélecteur, sauf que je rajoute la classe " active"
         }
         
         

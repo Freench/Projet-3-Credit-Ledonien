@@ -6,6 +6,7 @@ h2 {
     color:#001d26;
     font-family:ITC_Eras_Bold;
     font-size: 55px;
+    line-height: 47px;
 }
 
 #caroussel{
@@ -69,20 +70,20 @@ h2 {
     border : solid 1px #001d26;
   }
 
-  .fade {
-    -webkit-animation-name: fade;
+  .slide {
+    -webkit-animation-name: slide;
     -webkit-animation-duration: 0.3s;
-    animation-name: fade;
+    animation-name: slide;
     animation-duration: 0.3s;
   }
   
-  @-webkit-keyframes fade {
+  @-webkit-keyframes slide {
     from {position: relative; left : 500px
     }
     to {position:relative; left: 0px;}
   }
   
-  @keyframes fade {
+  @keyframes slide {
     from {position: relative; left : 500px
     }
     to {position:relative; left: 0px;}

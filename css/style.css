@@ -49,16 +49,16 @@
 
 /* SECTION DECOUVERTE */
 #decouverte {
-    /* clip-path: polygon(22% 15%, 100% 5%, 100% 95%, 20% 90%, 18% 50%); */
+    clip-path: polygon(22% 20%, 100% 5%, 100% 95%, 22% 90%, 20% 50%);
     background-color: #001d26;
     width: 1100px;
-    height: 600px;
+    height: 700px;
 }
-
+/* modifications du titre de la page découverte */
 #discovery-title{
     color: white;
     text-align: right;
-    margin: 0 0 0 500px;
+    padding: 100px 50px 0 0;
 }
 
 /* LES QUATRES PARTIES DE LA SECTION DECOUVERTE*/
@@ -68,6 +68,14 @@
     background-color: #008090;
     height: 380px;
     width: 430px;
+}
+/* placement des quatres menus de navigations */
+.names-Of-Articles{
+    margin: 100px 0 0 250px;
+}
+/* Placement de toutes les articles */
+.article-descovery{
+    margin: -340px 670px;
 }
 /*ALIGNEMENT DES PARTIES*/
 .names-Of-Articles ul li {
@@ -86,16 +94,17 @@ h3 {
     text-align: left;
     justify-content: baseline;
     border-bottom: 2px solid;
-    width: 380px;
+    width: 320px;
     cursor: pointer;
     color: rgb(255, 255, 255, 0.4);
     transition: color 0.3s ease;
 }
+/* quand tu appuis sur un bouton, ça devient blanc */
     .active, .buttom-article:hover {
         color: rgb(255, 255, 255, 1);
       }
-
-.fade {
+/* création de l'animation 'fondu' des articles */
+.fade-discovery {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 0.3s;
     animation-name: fade;
@@ -109,10 +118,3 @@ h3 {
     from {opacity: 0.4;}
     to {opacity: 1;}
   }
-  .article-descovery{
-      margin: -340px 670px;
-  }
-  
-.frameselector {
-    margin-top: 10px;   
-}

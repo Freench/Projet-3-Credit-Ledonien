@@ -1,3 +1,4 @@
+/* GENERAL PARAMETERS */
 body{
    margin: 0;
 }
@@ -20,7 +21,10 @@ nav {
    
    
 }
+/* END OF GENERAL PARAMETERS */
 
+
+/* SCROLLER */
 .scroll{
    font-family:OpenSans-Regular;
    font-size: 14px;
@@ -38,11 +42,15 @@ nav {
    margin-top: 20px;
 }
 
+/* GLOBAL CONTAINER THAT HAS TO BE FULL PAGE */
+
 .container {
    height:100vh;
    display: flex;
    justify-content: flex-end;
 }
+
+/* SHADOW BEHIND THE NAV */
 
 .shadowcircle {
    
@@ -57,7 +65,7 @@ nav {
    filter:drop-shadow(-19px 0px 25px rgb(94, 94, 94));
 }
 
-
+/* BUTTONS OF THE NAV */
 .lang{
     height: 30px;
     width: 30px;
@@ -132,6 +140,8 @@ nav {
    margin-bottom : 15vh;
    margin-top: 15px;
 }
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px){
    .scroll, .scrollbar{

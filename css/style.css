@@ -78,7 +78,7 @@ body, html {
 
 /* MODIFICATIONS OF THE TITLE OF THE DISCOVERY PAGE */
 #discovery-title {
-   color: white;
+   color: #dbdbdb;
    text-align: right;
    padding: 200px 50px 0 0;
 }
@@ -96,7 +96,7 @@ body, html {
 }
 
 /*FONT-WEIGHT FOR THE CREDIT LÉDONIEN ON P*/
-#discovery-title .credit-lédonien-weight{
+.credit-ledonien-weight{
    font-weight: 600;
 }
 /* DISCOVERY TITLE END */
@@ -159,14 +159,38 @@ body, html {
 /* PLACEMENT OF ALL IMAGES */
 .article-descovery img {
    height: 40%;
-   width: 80%;
+   width: 88%;
    display: block;
    margin: auto;
-   padding-top: 20px;
-   background-size: cover;
+   padding-top: 40px;
+   background-size:contain;
 }
 
-/*ARTICLES STARTS*/
+.article-descovery p{
+   font-family: OpenSans-Regular;
+   color: #dbdbdb;
+   font-size: 20px;
+   letter-spacing: 1px;
+   width: 73%;
+   display: block;
+   margin:  20px auto;
+}
+.article-descovery a{
+   font-family: OpenSans-SemiBold;
+   font-size: 18px;
+   color:#dbdbdb;
+   text-decoration: none;
+   width: 71%;
+   display: block;
+   margin: auto;
+}
+.link-line-discovery{
+   background-color: #dbdbdb;
+   height: 3px;
+   width: 122px;
+}
+
+/*ARTICLES END*/
 
 
 

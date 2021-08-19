@@ -101,6 +101,8 @@ body {
    text-decoration:none;
 }
 
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 1024px){
    .topfooter{
       justify-content: center;

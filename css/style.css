@@ -1,5 +1,21 @@
 
-header img{ 
+.top-warning{
+    font-family:OpenSans-Light;
+    color: #5b5c5e;
+    text-transform: uppercase;
+    font-size:14px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.top-warning > p {
+    margin:0;
+}
+
+.banner {
+    display:flex;
+    justify-content: space-around;
 }
 
 /* div {
@@ -102,7 +118,16 @@ h2 {
       
   }
 
-  
+  @media screen and (max-width: 1024px){
+      .banner {
+          display:block;
+          text-align: center;
+      }
+
+      .top-warning {
+          margin-top: 25px;
+      }
+  }
 
 
 

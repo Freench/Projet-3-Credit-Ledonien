@@ -5,9 +5,7 @@ h2 {
     font-size: 55px;
 }
 
-div {
-   border: solid red 1px;
-}
+
 
 body {
    margin:0;
@@ -19,6 +17,7 @@ body {
    background-color : #1a343c;
    font-family : ITC_Eras_Bold;
    text-transform: uppercase;
+   padding:10px;
 
 }
 
@@ -103,15 +102,44 @@ body {
 }
 
 @media screen and (max-width: 1024px){
+   .topfooter{
+      justify-content: center;
+      
+      display:flex;
+   }
+   
    .sitemap {
       flex-direction: column;
+      align-items:center;
+      
+   }
+   .sitemaplink {
+      line-height: 35px;
+      font-size:20px;
    }
    .botfooter {
       flex-direction:column;
-      justify-content:center;
-      max-height: 1000px;
+      justify-content:space-around;
+      height: 600px;
+      display: flex;
+      
    }
-   
+   .rightbotfooter{
+      align-items:center;
+      font-size: 16px;
+   }
+   .infosfooter{
+      font-size: 16px;
+      margin-bottom: 30px;
+   }
+   .loanwarning {
+      font-size: 16px;
+      margin-top: 25px;
+      margin-bottom: 30px;
+   }
+   .leftbotfooter {
+      text-align: center;
+   }
 
 }
 

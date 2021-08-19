@@ -46,19 +46,18 @@
     font-family: OpenSans-SemiBoldItalic; 
     src: url(../fonts/OpenSans-SemiBoldItalic.ttf) format("truetype");
  }
-
+body, html{
+   margin: 0;
+   padding: 0;
+}
 /* SECTION DISCOVERY */
 /* PLACEMENT OF THE DISCOVERY BLOCK */
-#decouverte {
-    margin-left: 720px;
-}
-/* SIZE AND BACKGROUND */
 #background-discovery {
    clip-path: polygon(22% 20%, 100% 5%, 100% 95%, 22% 90%, 20% 50%);
     background-color: #001d26;
-    width: 1200px;
-    height: 700px;
-    
+    width: 1400px;
+    height: 800px;
+    margin-left: 520px;
 }
 /* MODIFICATIONS OF THE TITLE OF THE DISCOVERY PAGE */
 #discovery-title{
@@ -72,17 +71,18 @@
     display:none;
     clip-path: polygon(0% 0, 100% 0%, 100% 85%, 0% 95%);
     background-color: #008090;
-    height: 450px;
-    width: 500px;
+    height: 500px;
+    width: 600px;
 }
-/* placement des quatres menus de navigations */
+/* PALCEMENT OF THE FOUR NAVIGATION MENUS */
 .names-Of-Articles{
-    margin: 100px 0 0 250px;
+    margin: 100px 0 0 380px;
 }
-/* Placement de toutes les articles */
+/* PLACEMENT OF ALL ITEMS  */
 .article-descovery{
-    margin: -350px 700px;
+    margin: -450px 1320px;
 }
+/* PLACEMENT OF ALL IMAGES */
 .article-descovery img{
    height: 40%;
    width: 80%;
@@ -91,21 +91,23 @@
    padding-top: 20px;
    background-size: cover;
 }
-/*ALIGNEMENT DES PARTIES*/
+/*ALIGNMENT OF THE PARTS*/
 .names-Of-Articles ul li {
     flex-direction: column;
     list-style: none;
 }
-/*POLICE ET LA TAILLE D'ECRITURE*/
+/*FONT AND WRITING SIZE FOR THE H2*/
 h2{
    font-family: ITC_Eras_Bold; 
 }
+/*FONT AND WRITING SIZE FOR THE H3*/
 h3 {
     font-family: OpenSans-SemiBold;
     font-size: 15px;   
 }
 
-/* dimension d'une partie de la section découverte */
+/*DIMENSION OF A PART OF THE DISCOVERY SECTION */
+ 
 .buttom-article {
     background-color: #001d26;
     border: none;
@@ -117,7 +119,7 @@ h3 {
     color: rgb(255, 255, 255, 0.4);
     transition: color 0.3s ease;
 }
-/* quand tu appuis sur un bouton, ça devient blanc */
+/* WHEN YOU PRESS A BUTTON IT TURNS WHITE */
     .active, .buttom-article:hover {
         color: rgb(255, 255, 255, 1);
       }

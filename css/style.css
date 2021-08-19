@@ -3,11 +3,32 @@
     display: flex;
     flex-direction: column;
     /* width: 35%; */
-    height: 90vh;
+    height: 85vh;
     border: solid 30px white;
     /* justify-content: flex-start; */
-    row-gap: 2%;
+    row-gap: 6%;
     box-shadow: 0px 0px 5px black;
+}
+#simulateur-cliked{
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    height: 85vh;
+    row-gap: 6%;
+    border: solid 30px white;
+}
+.logo-simulateur{
+    height: 60px;
+    margin: 1% 5%;
+}
+.logo-next{
+    height: 50px;
+    margin: 1% 2%;
+    
+}
+button{
+    border: none;
 }
 .btn-simulateur{
     color: white;
@@ -15,15 +36,77 @@
     flex-direction: row;
     flex-basis: 10%;
     width: 100%;
+    flex-basis: 110px;
     background-color: #008090;
     align-items: center;
     /* justify-content: space-between; */
     /* border: solid 2px red; */
     /* margin: 5% 0px; */
 }
+.contenu-btn-simulateur{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 90px;
+
+}
+.emprun{
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.mensualites-et-duree{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mensualites-ou-duree{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 50%;
+    row-gap: 15px;
+}
+.mr5{
+    margin-right: 5%;
+}
+.duree{
+    flex-basis: 50%;
+}
 .btn-simulateur-fleche{
     margin-left: auto;
 }
+.consigne{
+    color: rgb(136, 136, 136);
+    /* font-style: italic; */
+    font-family: OpenSans-Italic;
+    font-size: 18px;
+}
+.label-simulateur{
+    color: rgb(100, 100, 100);
+    font-family: OpenSans-SemiBold;
+}
+
+
+input{
+    -webkit-appearance: none;
+    margin: 0;
+    height: 80px;
+    width: 100%;
+    border : solid 1px rgb(91,91,91);
+    text-align: center;
+    font-size: 24px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 h2, h3{
     margin: 0px;
     font-family: ITC_Eras_Bold;
@@ -44,6 +127,7 @@ body{
 }
 .sous-titre{
     font-size: 18px;
+    margin-top: -5px;
 }
 p{
     margin: 0px;

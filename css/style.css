@@ -47,27 +47,33 @@
     src: url(../fonts/OpenSans-SemiBoldItalic.ttf) format("truetype");
  }
 
-/* SECTION DECOUVERTE */
+/* SECTION DISCOVERY */
+/* PLACEMENT OF THE DISCOVERY BLOCK */
 #decouverte {
-    clip-path: polygon(22% 20%, 100% 5%, 100% 95%, 22% 90%, 20% 50%);
-    background-color: #001d26;
-    width: 1100px;
-    height: 700px;
+    margin-left: 720px;
 }
-/* modifications du titre de la page découverte */
+/* SIZE AND BACKGROUND */
+#background-discovery {
+   clip-path: polygon(22% 20%, 100% 5%, 100% 95%, 22% 90%, 20% 50%);
+    background-color: #001d26;
+    width: 1200px;
+    height: 700px;
+    
+}
+/* MODIFICATIONS OF THE TITLE OF THE DISCOVERY PAGE */
 #discovery-title{
     color: white;
     text-align: right;
     padding: 100px 50px 0 0;
 }
 
-/* LES QUATRES PARTIES DE LA SECTION DECOUVERTE*/
+/* THE FOUR PARTS OF THE DISCOVERY PAGE*/
 .frame {
     display:none;
     clip-path: polygon(0% 0, 100% 0%, 100% 85%, 0% 95%);
     background-color: #008090;
-    height: 380px;
-    width: 430px;
+    height: 450px;
+    width: 500px;
 }
 /* placement des quatres menus de navigations */
 .names-Of-Articles{
@@ -75,7 +81,15 @@
 }
 /* Placement de toutes les articles */
 .article-descovery{
-    margin: -340px 670px;
+    margin: -350px 700px;
+}
+.article-descovery img{
+   height: 40%;
+   width: 80%;
+   display: block;
+   margin: auto;
+   padding-top: 20px;
+   background-size: cover;
 }
 /*ALIGNEMENT DES PARTIES*/
 .names-Of-Articles ul li {
@@ -83,10 +97,14 @@
     list-style: none;
 }
 /*POLICE ET LA TAILLE D'ECRITURE*/
+h2{
+   font-family: ITC_Eras_Bold; 
+}
 h3 {
     font-family: OpenSans-SemiBold;
     font-size: 15px;   
 }
+
 /* dimension d'une partie de la section découverte */
 .buttom-article {
     background-color: #001d26;
@@ -103,18 +121,4 @@ h3 {
     .active, .buttom-article:hover {
         color: rgb(255, 255, 255, 1);
       }
-/* création de l'animation 'fondu' des articles */
-.fade-discovery {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 0.3s;
-    animation-name: fade;
-    animation-duration: 0.3s;
-  }
-  @-webkit-keyframes fade {
-    from {opacity: 0.4;}
-    to {opacity: 1;}
-  }
-    @keyframes fade {
-    from {opacity: 0.4;}
-    to {opacity: 1;}
-  }
+

@@ -123,7 +123,7 @@ body, html {
 /*DIMENSION OF A PART OF THE DISCOVERY SECTION */
 
 .buttom-article {
-   background-color: #001d26;
+   background: #001d26;
    border: none;
    text-align: left;
    border-bottom: 3px solid;
@@ -131,13 +131,34 @@ body, html {
    padding: 10px 0 2px 0;
    cursor: pointer;
    color: rgb(255, 255, 255, 0.4);
-   transition: color 0.3s ease;
+   transition: color 0.3s;
+}
+.buttom-article {
+   background: #001d26;
+   border: none;
+   text-align: left;
+   border-bottom: 3px solid;
+   width: 400px;
+   padding: 10px 0 2px 0;
+   cursor: pointer;
+   color: rgb(255, 255, 255, 0.4);
+   transition: color 0.3s;
 }
 
 /* WHEN YOU PRESS A BUTTON IT TURNS WHITE */
 .active, .buttom-article:hover {
    color: rgb(255, 255, 255, 1);
+   transform: translateX(20px);
+   transition: 1s;
 }
+.buttom-article:hover{
+   transform: translateX(20px);
+   transition: 0.5s;
+}
+.buttom-article:hover:after{
+   transition: 1s;
+}
+
 /*NAME-OF-ARTICLES END*/
 
 /*ARTICLES STARTS*/
@@ -158,12 +179,12 @@ body, html {
 
 /* PLACEMENT OF ALL IMAGES */
 .article-descovery img {
-   height: 40%;
+   height: 35%;
    width: 88%;
    display: block;
    margin: auto;
    padding-top: 40px;
-   background-size:contain;
+   object-fit: cover;
 }
 
 .article-descovery p{
@@ -184,10 +205,17 @@ body, html {
    display: block;
    margin: auto;
 }
-.link-line-discovery{
-   background-color: #dbdbdb;
+.link-line-discovery:after{
+   content: "";
+   background: #dbdbdb;
    height: 3px;
    width: 122px;
+   transition: width 0.5s;
+   display: block;
+}
+.link-line-discovery:hover:after{
+   width: 50px;
+   transition: width 0.5s;
 }
 
 /*ARTICLES END*/

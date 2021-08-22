@@ -48,6 +48,7 @@ nav {
    height:100vh;
    display: flex;
    justify-content: flex-end;
+   overflow:hidden;
 }
 
 /* SHADOW BEHIND THE NAV */
@@ -63,6 +64,9 @@ nav {
    margin-right:3px;
    display:flex;
    filter:drop-shadow(-19px 0px 25px rgb(94, 94, 94));
+   position:absolute;
+   
+
 }
 
 /* BUTTONS OF THE NAV */
@@ -121,7 +125,9 @@ nav {
     background-color: #008090;
     margin-bottom: 6px;
     margin-left: 10px;
+    
 }
+
 .breadbot {
     height:2px;
     width: 30px;
@@ -139,7 +145,24 @@ nav {
 #menuburger {
    margin-bottom : 15vh;
    margin-top: 15px;
+   border:none;
+   background-color: #fff;
+   cursor:pointer;
 }
+
+#menu-slider{
+   width:100vw;
+   height:100vh;
+   background-color: aqua;
+   display:none;
+   
+}
+
+.menuappear{
+   display:block!important;
+}
+
+
 
 /* MEDIA QUERIES */
 

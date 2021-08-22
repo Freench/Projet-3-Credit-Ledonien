@@ -12,14 +12,14 @@
     <!-- INTEGRATEUR => Il faut que ce container soit un body ou bien un container qui prend toute la page S.T.P -->
     <div class="container">
         <nav>
-            <div id="menuburger">
+            <button type="button" id="menuburger" onclick="menuBurger()">
                 <div class="breadtop"></div>
                 <div class="steak"></div>
                 <div class="breadbot"></div>
                 <p class="menu">MENU</p>
                 <!-- Drawn each part of the burger menu separately -->
 
-            </div>
+            </button>
             <!-- Nav buttons -->
             <input type="button" class="lang" value="FR">
             <button type="button" class="call"><a href="#" id="phone"><img src="images/call.svg" alt="Icône de téléphone" ></a></button>
@@ -29,7 +29,26 @@
         </nav>
         <!-- Shadow behind the nav -->
     <div class="shadowcircle"></div>
+    <div id="menu-slider"></div>
     </div>
-    <script src="js/main.js"></script>  
+
+    
+
+    <script>
+        function menuBurger(){
+            let menuSlider = document.getElementById("menu-slider");    
+            
+            if (menuSlider.style.display = "none"){
+            menuSlider.classList.add("menuappear");
+            }
+            else {
+                menuSlider.style.display = "none";
+            }
+
+        
+
+
+        }
+    </script>  
 </body>
 </html>

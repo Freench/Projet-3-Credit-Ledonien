@@ -6,11 +6,30 @@ let elementDuree = document.getElementById('duree');
 let ordreModification = []  // Sert savoir quels éléments parmis Emprun, Mensualites ou Durée ont été modifiés en dernier et avant dernier
 
 //Ecoute des 3 champs qui peuvent être modifiés
-elementEmprun.addEventListener('input', function () { calculSimulateur('Emprun') });
-elementDuree.addEventListener('input', function () { calculSimulateur('Duree') });
-elementMensualites.addEventListener('input', function () { calculSimulateur('Mensualites') });
+elementEmprun.addEventListener('input', function () { calculSimulateur('Emprun'), verification_valeur()});
+elementDuree.addEventListener('input', function () { calculSimulateur('Duree'), verification_valeur()});
+elementMensualites.addEventListener('input', function () { calculSimulateur('Mensualites'), verification_valeur()});
 
-
+function verification_valeur(){
+    if (elementDuree.value < 6 || elementDuree.value > 84){
+        elementDuree.style.color = 'red'
+    }
+    else{
+        elementDuree.style.color =  'black'
+    }
+    if (elementEmprun.value < 500 || elementEmprun.value > 75000){
+        elementEmprun.style.color = 'red'
+    }
+    else{
+        elementEmprun.style.color =  'black'
+    }
+    if (elementMensualites.value < 10 || elementMensualites.value > 12000){
+        elementMensualites.style.color = 'red'
+    }
+    else{
+        elementMensualites.style.color =  'black'
+    }
+}
 function calculSimulateur(dernierModifier) {
     let oldIndex = null;
     //Netoyage de l'ancienne position du drenier champ modifié

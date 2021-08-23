@@ -12,10 +12,12 @@
 <body class="flex">
     
     <div class="header-main">
-        
+    <?php include('html/header.php')
+        ?>
     </div>
     <div class="pret-main">
-        pret
+    <?php include('html/slideshow.php')
+        ?>
     </div>
     <div class="simulateur-main">
         <?php include('html/simulateur.php')
@@ -28,13 +30,14 @@
         decouverte
     </div>
     <div class="photo-main">
-        photo
+        <img src="images/" alt="">
     </div>
     <div class="article2-main">
         article2
     </div>
     <div class="footer-main">
-        footer
+    <?php include('html/footer.php')
+        ?>
     </div>
 
     <script type="text/javascript" src="js/script.js"></script>

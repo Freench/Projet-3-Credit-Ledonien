@@ -1,42 +1,105 @@
-/* ELEMENTS */
+/* div {
+    border : red solid 1px;
+} */
+
 h2 {
     color:#001d26;
     font-family:ITC_Eras_Bold;
     font-size: 55px;
+    line-height: 47px;
 }
-/* HEADER */
-.top-warning{
-    font-family:OpenSans-Light;
+
+#caroussel{
+    width:510px;
+    overflow:hidden;
+}
+
+#discover{
+    width: 240px;
+    padding: 25px;
+    background-color:#008090;
+    border:0;
+    color:#ffffff;
+    font-family: OpenSans-SemiBold;
+    font-size: 20px;
+    transition:0.3s;
+    margin-top:25px;
+}
+
+#discover:hover{
+    background-color:#15a9bd;
+}
+
+#discover:active{
+    background-color: #001d26;
+}
+
+.percentage{
+    font-family: OpenSans-Bold; 
+    color: #008090;
+    font-size:55px;
+}
+
+.modalities {
+    font-family: OpenSans-Bold;
     color: #5b5c5e;
-    text-transform: uppercase;
-    font-size:14px;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
+    font-size:30px;
+    line-height: 50px;
 }
 
-.top-warning > p {
-    margin:0;
+.condition {
+    font-family: OpenSans-SemiBold;
+    color: #5b5c5e;
+    font-size: 22px;
+    line-height: 70px;
 }
 
-.banner {
-    display:flex;
-    justify-content: space-around;
-}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    border : 1px solid #0c8695
+  }
+  
+  .active, .dot:hover {
+    background-color: #001d26;
+    border : solid 1px #001d26;
+  }
 
-
-
-
-@media screen and (max-width: 1024px){
-    .banner {
-        display:block;
-        text-align: center;
+  .slide {
+    -webkit-animation-name: slide;
+    -webkit-animation-duration: 0.3s;
+    animation-name: slide;
+    animation-duration: 0.3s;
+  }
+  
+  @-webkit-keyframes slide {
+    from {position: relative; left : 500px
     }
-
-    .top-warning {
-        margin-top: 25px;
+    to {position:relative; left: 0px;}
+  }
+  
+  @keyframes slide {
+    from {position: relative; left : 500px
     }
-}
+    to {position:relative; left: 0px;}
+  }
+
+  .frame {
+      display:none;
+      background-color: #fff;
+  }
+
+  .frameselector {
+      margin-top: 10px;
+      
+  }
+
+  
 
 
 
@@ -45,49 +108,48 @@ h2 {
 @font-face {
     font-family: ITC_Eras_Bold; 
     src: url(../fonts/ErasBoldITC.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: ERASBD; 
     src: url(../fonts/ERASBD.TTF) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-Bold; 
     src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-BoldItalic; 
     src: url(../fonts/OpenSans-BoldItalic.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-ExtraBold; 
     src: url(../fonts/OpenSans-ExtraBold.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-ExtraBoldItalic; 
     src: url(../fonts/OpenSans-ExtraBoldItalic.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-Italic; 
     src: url(../fonts/OpenSans-Italic.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-Light; 
     src: url(../fonts//OpenSans-Light.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-LightItalic; 
     src: url(../fonts/OpenSans-LightItalic.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-Regular; 
     src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-SemiBold; 
     src: url(../fonts/OpenSans-SemiBold.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
     font-family: OpenSans-SemiBoldItalic; 
     src: url(../fonts/OpenSans-SemiBoldItalic.ttf) format("truetype");
-}
-
+ }

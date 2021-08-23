@@ -1,3 +1,6 @@
+div {
+    border: red solid 1px;
+}
 strong{
     color: #001d26;
     font-family: OpenSans-SemiBold;
@@ -10,38 +13,36 @@ body{
     color: #5b5c5e;
 }
 
-.top-article{
+.article{
     display: flex;
-    width: 75%;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
     margin: auto;
+    flex-wrap: wrap;
 }
 .article1{
-    width: 60%;
-}
-#découverte{
-    width: 700px;
-    background-color: red;
+    width: 40%;
+    overflow: hidden;
 }
 
-.bottom-article{
-    display: flex;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .image-article{
-    width: 100%;
+    width: 35%;
     height: auto;
+    padding: auto;
+    margin-top: 50px;
 }
 
 .article2{
-    width: 100%;
+    width: 50%;
+    margin-top: 50px;
     overflow: hidden;
 }
 
 .article1 h2, .article2 h2{
-    color: #000000;  
+    color: #000000;
+    font-weight: 800;  
 }
 
 

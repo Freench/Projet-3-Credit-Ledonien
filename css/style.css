@@ -17,7 +17,7 @@ body{
     position:fixed;
     flex-direction: column;
     align-items: center;
-    
+    z-index:12;
     
     
  }
@@ -49,6 +49,7 @@ body{
     display: flex;
     justify-content: flex-end;
     overflow:hidden;
+    
  }
  
  /* SHADOW BEHIND THE NAV */
@@ -59,7 +60,7 @@ body{
     height: 260px;
     border-radius: 50%;
     background-color: #fff;
-    z-index: -1;
+    z-index: 11;
     margin-top : 20px;
     margin-right:3px;
     display:flex;
@@ -150,19 +151,48 @@ body{
     cursor:pointer;
  }
  
- #menu-slider{
+#menu-slider{
     width:100vw;
-    height:100vh;
-    background-color: aqua;
-    display:none;
-    
- }
- 
- .menuappear{
-    display:block!important;
- }
- 
- 
+    height:90vh;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    z-index:1;
+    margin-top: 10vh;    
+}
+
+.menuTitle{
+    font-family: ITC_Eras_Bold;
+    font-size: 44px;
+    color: #008090;
+    text-align: end;
+    line-height: 60px;
+    padding-right: 15vw;  
+    display:block;  
+    text-decoration:none;
+}
+
+#paddingmenu {
+    padding-top: 20vh;
+}
+
+.slidemenu {
+    -webkit-animation-name: slidemenu;
+    -webkit-animation-duration: 0.5s;
+    animation-name: slidemenu;
+    animation-duration: 0.5s;
+}
+  
+@-webkit-keyframes slidemenu {
+    from {position: relative; left : 100vw;
+    }
+    to {position:relative; left: 0vw;}
+}
+  
+@keyframes slidemenu {
+    from {position: relative; left : 100vw;
+    }
+    to {position:relative; left: 0vw;}
+}
  
  /* MEDIA QUERIES */
  
@@ -190,7 +220,7 @@ body{
        height: 65px;
        border-radius: 50%;
        background-color: #fff;
-       z-index: -1;
+       z-index: 11;
     }
     .lang{
        height: 50px;
@@ -223,6 +253,13 @@ body{
  
     .menu{
        display:none;
+    }
+    .menuTitle {
+        font-size: 30px;
+        /* margin-top: 0vh; */
+        /* height: 100vh; */
+
+        
     }
  }
  

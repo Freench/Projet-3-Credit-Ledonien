@@ -9,6 +9,7 @@ body{
     font-family: OpenSans-Regular;
     color: #5b5c5e;
     font-size: 24px;
+    margin:0;
 }
 h3{
     margin: 0px;
@@ -40,6 +41,114 @@ input[type=number] {
     display:flex;
     flex-direction: column;
     justify-content:center;
+}
+
+.top-warning > p {
+    margin:0;
+}
+
+
+
+/* TOP PART OF THE FOOTER */
+.topfooter {
+   background-color : #1a343c;
+   font-family : ITC_Eras_Bold;
+   text-transform: uppercase;
+   padding:10px;
+
+}
+
+.sitemap {
+   list-style-type: none;
+   display:flex;
+   justify-content: center;
+}
+
+.sitemaplink {
+   text-decoration: none;
+   margin-right: 15px;
+}
+.sitemaplink :hover, .sitemaplink :active, .sitemap :visited {
+   color:#fff;
+}
+
+/* BOTTOM PART OF THE FOOTER */
+
+.botfooter {
+   height : 300px;
+   background-color: #001d26;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.logofooter > img {
+   display: flex;
+   height:150px;
+}
+
+.logofooter {
+   display:flex;
+   
+   
+}
+
+.loanwarning {
+   color:#fff;
+   font-family: OpenSans-Light;
+   font-size:12px;
+   
+   width: 270px;
+}
+
+.leftbotfooter{
+   display:flex;
+   flex-direction: column;
+}
+
+.infosfooter {
+   color:#fff;
+   font-family: OpenSans-Regular;
+   font-size: 12px;
+   display:flex;
+   flex-direction: column;
+   line-height: 0px;;
+}
+.centerbotfooter {
+   display:flex;
+   
+}
+.rightbotfooter{
+   display:flex;
+   flex-direction: column;
+   align-items:flex-end;
+   
+   color: white;
+   font-family: OpenSans-Light;
+   font-size:12px;
+}
+.legallink {
+   color:#fff;
+   text-decoration:none;
+
+}
+.credit{
+   font-family:OpenSans-Bold;
+   color:#008090;
+   text-decoration:none;
+}
+
+/* MEDIA QUERIES */
+
+
+   
+
+
+
+
+@font-face {
+   font-family: ITC_Eras_Bold; 
+   src: url(../fonts/ErasBoldITC.ttf) format("truetype");
 }
 
 
@@ -317,6 +426,46 @@ div{
         width: 100%;
         height: 200px;
     }
+    .topfooter{
+        justify-content: center;
+        
+        display:flex;
+     }
+     
+     .sitemap {
+        flex-direction: column;
+        align-items:center;
+        
+     }
+     .sitemaplink {
+        line-height: 35px;
+        font-size:20px;
+     }
+     .botfooter {
+        flex-direction:column;
+        justify-content:space-around;
+        height: 600px;
+        display: flex;
+        
+     }
+     .rightbotfooter{
+        align-items:center;
+        font-size: 16px;
+     }
+     .infosfooter{
+        font-size: 16px;
+        margin-bottom: 30px;
+     }
+     .loanwarning {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+     }
+     .leftbotfooter {
+        text-align: center;
+     }
+  
+  }
 }
 
 

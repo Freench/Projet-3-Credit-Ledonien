@@ -2,7 +2,7 @@ h2 {
     color:#001d26;
     font-family:ITC_Eras_Bold;
     font-size: 55px;
-    line-height: 47px;
+    line-sheight: 47px;
 }
 body{
     /* background-color: #779bd6; */
@@ -358,16 +358,24 @@ button{
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    /* align-content: center; */
+
 }
 
+div{
+    box-sizing: border-box;
+}
 .header-main{
     width: 100%;
 }
 .pret-main{
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 .simulateur-main{
     width: 50%;
+    margin: 5%;
 }
 .article1-main{
     width: 30%;
@@ -395,21 +403,21 @@ button{
         display:block;
         text-align: center;
     }
-
+    .flex{
+    }
     .pret-main{
         width: 100%;
-        height: 200px;
     }
     .simulateur-main{
         width: 100%;
     }
     .article1-main{
         width: 100%;
-        height: 200px;
+  
     }
     .decouverte-main{
         width: 100%;
-        height: 200px;
+  
     }
     .photo-main{
         width:100%;
@@ -417,7 +425,7 @@ button{
     }
     .article2-main{
         width: 100%;
-        height: 200px;
+
     }
     .topfooter{
         justify-content: center;
@@ -459,7 +467,7 @@ button{
      }
   
   }
-}
+
 
 
 /* FONTS */

@@ -55,4 +55,4 @@
 
         <button id="btn-retour-simulateur" class="" type="button" value="clickme">Retour</button>
     </div>
-    <script type="text/javascript" src="js/script.js"></script>
+    

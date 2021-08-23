@@ -205,7 +205,7 @@ body, html {
    display: block;
    margin: auto;
 }
-.link-line-discovery:after{
+.link-line-discovery::after{
    content: "";
    background: #dbdbdb;
    height: 3px;
@@ -213,7 +213,7 @@ body, html {
    transition: width 0.5s;
    display: block;
 }
-.link-line-discovery:hover:after{
+.link-line-discovery:hover::after{
    width: 50px;
    transition: width 0.5s;
 }

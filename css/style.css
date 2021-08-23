@@ -2,11 +2,12 @@ div {
     border: red solid 1px;
 }
 strong{
-    color: #001d26;
+    color: #000000;
     font-family: OpenSans-SemiBold;
 }
 .mi-strong{
     font-family: OpenSans-SemiBold;
+    color: #464646;
 }
 body{
     font-family: OpenSans-Regular;
@@ -22,27 +23,28 @@ body{
     flex-wrap: wrap;
 }
 .article1{
-    width: 40%;
+    width: 60%;
     overflow: hidden;
 }
 
 
 .image-article{
-    width: 35%;
-    height: auto;
-    padding: auto;
-    margin-top: 50px;
+    margin: auto;
 }
 
 .article2{
-    width: 50%;
+    width: 100%;
     margin-top: 50px;
     overflow: hidden;
 }
 
 .article1 h2, .article2 h2{
-    color: #000000;
-    font-weight: 800;  
+    color:#001d26;
+    font-family:ITC_Eras_Bold;
+    font-size: 40px;
+}
+.article1 p, .article2 p{
+    
 }
 
 

@@ -50,6 +50,11 @@
                 <p class="placeholder">Hello, I am the simulator box placeholder</p>
             </div>
     </section>
+
+    <footer>
+        <?php include("html/footer.php")
+        ?>
+    </footer>
     
     
      

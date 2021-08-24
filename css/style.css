@@ -188,6 +188,13 @@ input[type=number] {
 button{
     border: none;
 }
+
+.btn-simulateur:hover{
+    background-color:#15a9bd;
+}
+.btn-simulateur:active{
+    background-color: #001d26;
+}
 .btn-simulateur{
     color: white;
     display: flex;
@@ -200,6 +207,7 @@ button{
     /* justify-content: space-between; */
     /* border: solid 2px red; */
     /* margin: 5% 0px; */
+    transition: 0.3s;
 }
 .contenu-btn-simulateur{
     display: flex;
@@ -257,7 +265,7 @@ button{
 /* END SIMULATOR */
 
 /* START SLIDESHOW */
-#discover{
+.discover{
     width: 240px;
     padding: 25px;
     background-color:#008090;
@@ -269,11 +277,11 @@ button{
     margin-top:25px;
 }
 
-#discover:hover{
+.discover:hover{
     background-color:#15a9bd;
 }
 
-#discover:active{
+.discover:active{
     background-color: #001d26;
 }
 
@@ -349,8 +357,6 @@ button{
     margin-top: 10px;
 }
 /* END SLIDESHOW */
-
-  
 
     /* MODIF PHP */
 /* MODIF TEST PHP */

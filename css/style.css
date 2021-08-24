@@ -334,7 +334,9 @@ input[type=number] {
 }
 .banner {
     display:flex;
-    justify-content: space-around; 
+    justify-content: space-between;
+    padding-left: 20px; 
+    padding-right: 20px;
 }
 #caroussel{
     width:510px;
@@ -412,7 +414,7 @@ input[type=number] {
     justify-content: center;
 }
 .simulateur-main{
-    width: 50%;
+    width: 40%;
     margin: 5%;
 }
 .article1-main{

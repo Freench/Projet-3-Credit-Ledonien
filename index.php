@@ -24,7 +24,8 @@
         ?>
     </div>
     <div class="article1-main">
-        article-1
+    <?php include('html/article1.php')
+        ?>
     </div>
     <div class="decouverte-main">
         decouverte
@@ -33,7 +34,8 @@
         <img src="images/" alt="">
     </div>
     <div class="article2-main">
-        article2
+    <?php include('html/article2.php')
+        ?>
     </div>
     <div class="footer-main">
     <?php include('html/footer.php')

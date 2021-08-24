@@ -11,7 +11,6 @@
         content="Essayez notre simulateur de crédit, nous avons vos solution de crédit et nous vous accompagnons vers une solution responsable.">
 </head>
 
-<<<<<<< HEAD
 
 <body>
 
@@ -51,38 +50,6 @@
         </div>
         <div class="nav-main">
             <?php include('html/navbar.php')
-=======
-<body class="flex">
-        
-        <div class="header-main">
-        <?php include('html/header.php')
-            ?>
-        </div>
-        <div class="pret-main">
-        <?php include('html/slideshow.php')
-            ?>
-        </div>
-        <div class="simulateur-main">
-            <?php include('html/simulateur.php')
-            ?>
-        </div>
-        <div class="article1-main">
-        <?php include('html/article1.php')
-            ?>
-        </div>
-        <div class="decouverte-main">
-            decouverte
-        </div>
-        <div class="photo-main">
-            <img src="images/" alt="">
-        </div>
-        <div class="article2-main">
-        <?php include('html/article2.php')
-            ?>
-        </div>
-        <div class="footer-main">
-        <?php include('html/footer.php')
->>>>>>> 783eb67a1b5d7bf5a33400466370802b850e7a56
             ?>
         </div>
     </div>

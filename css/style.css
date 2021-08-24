@@ -10,7 +10,7 @@ button {
 h2 {
    color: #001d26;
    font-family: ITC_Eras_Bold;
-   font-size: 55px;
+   font-size: 42px;
    line-height: 47px;
 }
 
@@ -1097,6 +1097,7 @@ strong{
    color : white;
    font-size : 65px;
    text-align: center;
+   line-height: 80px;
 
 }
 

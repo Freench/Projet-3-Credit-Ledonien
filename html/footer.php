@@ -5,7 +5,7 @@
         <div class="topfooter">
             <div id="navfooter">
                 <ul class ="sitemap">
-                    <li><a href="" class="sitemaplink">Accueil</a></li>
+                    <li><a href="index.php" class="sitemaplink">Accueil</a></li>
                     <li><a href="qui.php" class="sitemaplink">Qui sommes-nous?</a></li>
                     <li><a href="" class="sitemaplink">Nos Offres</a></li>
                     <li><a href="" class="sitemaplink">Contactez-nous</a></li>

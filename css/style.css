@@ -1,6 +1,4 @@
-div {
-    border: red solid 1px;
-}
+
 strong{
     color: #000000;
     font-family: OpenSans-SemiBold;
@@ -17,7 +15,7 @@ body{
 .article{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 63%;
     justify-content: space-around;
     margin: auto;
     flex-wrap: wrap;

@@ -18,12 +18,5 @@
         </nav>
         <!-- Shadow behind the nav -->
     <div class="shadowcircle"></div>
-    <div id="menu-slider" class="slidemenu" style="display:none;">
-        <div id="paddingmenu">   
-            <a href="#" class="menuTitle">ACCUEIL</a>
-            <a href="#" class="menuTitle">QUI SOMMES-NOUS?</a>
-            <a href="#" class="menuTitle">NOS OFFRES</a>
-            <a href="#" class="menuTitle">CONTACTEZ-NOUS</a>
-        </div>
-    </div>
-    </div>
+    
+</div>

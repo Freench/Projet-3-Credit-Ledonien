@@ -11,10 +11,16 @@
         content="Essayez notre simulateur de crédit, nous avons vos solution de crédit et nous vous accompagnons vers une solution responsable.">
 </head>
 
-<<<<<<< HEAD
 
 <body>
-
+    <div id="menu-slider" class="slidemenu" style="display:none;">
+        <div id="paddingmenu">
+            <a href="#" class="menuTitle">ACCUEIL</a>
+            <a href="#" class="menuTitle">QUI SOMMES-NOUS?</a>
+            <a href="#" class="menuTitle">NOS OFFRES</a>
+            <a href="#" class="menuTitle">CONTACTEZ-NOUS</a>
+        </div>
+    </div>
     <div class="sur-flex">
         <div class="flex">
             <div class="header-main">
@@ -38,7 +44,7 @@
                 ?>
             </div>
             <div class="photo-main">
-                <img src="images/" alt="">
+                <img src="images/money-arbre.png" alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
             </div>
             <div class="article2-main">
                 <?php include('html/article2.php')
@@ -51,38 +57,6 @@
         </div>
         <div class="nav-main">
             <?php include('html/navbar.php')
-=======
-<body class="flex">
-        
-        <div class="header-main">
-        <?php include('html/header.php')
-            ?>
-        </div>
-        <div class="pret-main">
-        <?php include('html/slideshow.php')
-            ?>
-        </div>
-        <div class="simulateur-main">
-            <?php include('html/simulateur.php')
-            ?>
-        </div>
-        <div class="article1-main">
-        <?php include('html/article1.php')
-            ?>
-        </div>
-        <div class="decouverte-main">
-            decouverte
-        </div>
-        <div class="photo-main">
-            <img src="images/" alt="">
-        </div>
-        <div class="article2-main">
-        <?php include('html/article2.php')
-            ?>
-        </div>
-        <div class="footer-main">
-        <?php include('html/footer.php')
->>>>>>> 783eb67a1b5d7bf5a33400466370802b850e7a56
             ?>
         </div>
     </div>

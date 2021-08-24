@@ -24,7 +24,7 @@
                     <p>39000 Lons le Saunier</p>
                     <p>Tél: + 33 (0) 3 84 12 56 89</p>
                     <p>contact@lecreditledonien.fr</p>
-                </div>                
+                </div>
             </div>
             <div class="rightbotfooter">
                 <a href="qui.php" class="legallink">Mentions légales</a>
@@ -33,5 +33,3 @@
             </div>
         </div>
 
-    
-     

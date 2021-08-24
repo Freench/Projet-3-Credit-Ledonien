@@ -6,20 +6,16 @@ body, html {
 /* div{
     border: red solid 1px;
 } */
-#decouverte{
-    position: relative;
-    height: auto;
-    width: auto;
-}
+
+
 
 /* SECTION DISCOVERY */
 /* PLACEMENT OF THE DISCOVERY BLOCK */
 #background-discovery {
    clip-path: polygon(22% 20%, 100% 5%, 100% 95%, 22% 90%, 20% 55%);
    background-color: #001d26;
-   width: 80vw;
-   height: 800px;
-   margin: auto;
+   width: 100%;
+   height: 100vh;
    display: flex;
    justify-content: space-between;
 }
@@ -35,7 +31,7 @@ body, html {
    text-align: right;
    display: flex;
    flex-direction: column;
-   padding: 100px 30px 0 0;
+   padding: 180px 50px 0 0;
 }
 /*FONT AND WRITING SIZE FOR THE H2*/
 #discovery-title h2 {
@@ -58,11 +54,11 @@ body, html {
 /* PALCEMENT OF THE FOUR NAVIGATION MENUS */
 .names-Of-Articles {
     order: 1;
-    width: 65%;
+    width: 55%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 /*ALIGNMENT OF THE PARTS*/
 .names-Of-Articles ul li {
@@ -79,17 +75,7 @@ body, html {
 
 /*BUTTOM-ARTICLE START*/
 /*DIMENSION OF A PART OF THE DISCOVERY SECTION */
-.buttom-article {
-   background: #001d26;
-   border: none;
-   text-align: left;
-   border-bottom: 3px solid;
-   width: 400px;
-   padding: 10px 0 2px 0;
-   cursor: pointer;
-   color: rgb(255, 255, 255, 0.4);
-   transition: color 0.3s;
-}
+
 .buttom-article {
    background: #001d26;
    border: none;
@@ -121,20 +107,22 @@ body, html {
 /*ARTICLES STARTS*/
 /* THE FOUR PARTS OF THE DISCOVERY PAGE*/
 .all-article-discovery{
+   display: flex;
     position: absolute;
-    top: 300px;
-    right: -200px;
+    bottom: 0px;
+    right: 0px;
+    margin: -170px 0;
+   
 }
 
 .frame {
    display: none;
    clip-path: polygon(0% 0, 100% 0%, 100% 85%, 0% 90%);
    background-color: #008090;
-   height: 500px;
-   width: 650px;
+   height: 70vh;
+   width: 40vw;
 }
 
-/* PLACEMENT OF ALL ITEMS  */
 
 /* PLACEMENT OF ALL IMAGES */
 .article-descovery img {

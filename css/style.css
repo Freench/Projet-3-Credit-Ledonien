@@ -232,7 +232,7 @@ input[type=number] {
    display: flex;
    flex-direction: column;
    /* width: 35%; */
-   height: 85vh;
+   height: 590px;
    border: solid 30px white;
    /* justify-content: flex-start; */
    row-gap: 6%;
@@ -251,6 +251,10 @@ input[type=number] {
 
 #simulateur h2, #simulateur-cliked h2, #simulateur p{
     margin : 0px;
+}
+
+#simulateur h3{
+    font-size: calc(6px + 1.5vw);
 }
 
 
@@ -531,7 +535,7 @@ strong{
 
 .simulateur-main {
    width: 40%;
-   margin: 5%;
+   margin-left: 4%;
    z-index: 2;
 }
 

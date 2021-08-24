@@ -76,7 +76,7 @@ document.getElementById("btn-retour-simulateur").onclick = function () {
 
 // SLIDESHOW
 
-var frameIndex = 0;
+let frameIndex = 0;
         showFrames(frameIndex);
         // Je fixe mon index pour rappeler mes frames et les manipuler à la façon d'un ARRAY
 
@@ -119,24 +119,24 @@ let mainMenu = document.getElementById("menu-slider")
             }
         });
         // END NAV
-var frameIndex = 0;
-showFrames(frameIndex);
+let frameIndexD = 0;
+showFramesD(frameIndexD);
 
-function currentFrame(n) {
-    showFrames(frameIndex = n);
+function currentFrameD(n) {
+    showFramesD(frameIndexD = n);
 }
 
-function showFrames(n) {
-    var i;
-    var frames = document.getElementsByClassName("frame-decouverte");
-    var dots = document.getElementsByClassName("buttom-article");
+function showFramesD(n) {
+    let j;
+    let framesD = document.getElementsByClassName("frame-decouverte");
+    let dotsD = document.getElementsByClassName("buttom-article");
 
-    for (i = 0; i < frames.length; i++) {
-        frames[i].style.display = "none";
+    for (j = 0; j < framesD.length; j++) {
+        framesD[j].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+    for (j = 0; j < dotsD.length; j++) {
+        dotsD[j].className = dotsD[j].className.replace(" activeD", "");
     }
-    frames[frameIndex].style.display = "block";
-    dots[frameIndex].className += " active";
+    framesD[frameIndexD].style.display = "block";
+    dotsD[frameIndexD].className += " activeD";
 }

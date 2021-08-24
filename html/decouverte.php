@@ -1,4 +1,4 @@
-    <!-- DIV OF THE DISCOVERY PAGE -->
+    <!-- DIV OF THE DISCOVERY PAGE
     <div id="decouverte">
         <!--DIV OF THE BACKGROUND AND THE SIZE-->
         <div id="background-discovery">
@@ -12,18 +12,18 @@
             <!-- DIV OF THE FOUR BUTTOM OF THE ARTICLES OF THE DISCOVERY PAGE -->
             <div class="names-Of-Articles">
                 <ul>
-                    <li><button class="buttom-article" onclick="currentFrame(0)">
+                    <li><button class="buttom-article" onclick="currentFrameD(0)">
                             <h3>Trouvez votre prochain véhicule !</h3>
                         </button>
                     </li>
-                    <li><button class="buttom-article" onclick="currentFrame(1)">
+                    <li><button class="buttom-article" onclick="currentFrameD(1)">
                             <h3>Prêt personnel le Crédit Lédonien</h3>
                     </li>
-                    <li><button class="buttom-article" onclick="currentFrame(2)">
+                    <li><button class="buttom-article" onclick="currentFrameD(2)">
                             <h3>Carte de crédit Mastercard</h3>
                         </button>
                     </li>
-                    <li><button class="buttom-article" onclick="currentFrame(3)">
+                    <li><button class="buttom-article" onclick="currentFrameD(3)">
                             <h3>Prêt personnel Travaux</h3>
                         </button>
                     </li>
@@ -65,4 +65,4 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 

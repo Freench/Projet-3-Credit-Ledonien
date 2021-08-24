@@ -12,7 +12,7 @@
             </div>
 
             <div class="discoverbutton">
-                <input type="button" name="discover" id="discover" value="Découvrir">
+                <input type="button" name="discover" class="discover" value="Découvrir">
                 
             </div>
         </div>
@@ -25,7 +25,7 @@
                 <p class="modalities"><span class="percentage">1,03%</span> TAEG fixe <br/> Offre valable jusqu'au 31/09/2021 <br/><span class="condition">Pour 3000€ empruntés sur 24 mois</span></p>
             </div>
             <div class="discoverbutton">
-                <input type="button" name="discover" id="discover" value="Découvrir">
+                <input type="button" name="discover" class="discover" value="Découvrir">
                 
             </div>
         </div>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="discoverbutton">
-                <input type="button" name="discover" id="discover" value="Découvrir">
+                <input type="button" name="discover" class="discover" value="Découvrir">
                 
             </div>
         </div>

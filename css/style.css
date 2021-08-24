@@ -1,4 +1,3 @@
-
 strong{
     color: #000000;
     font-family: OpenSans-SemiBold;
@@ -138,15 +137,12 @@ input[type=number] {
 
 .logofooter {
    display:flex;
-   
-   
 }
 
 .loanwarning {
    color:#fff;
    font-family: OpenSans-Light;
    font-size:12px;
-   
    width: 270px;
 }
 
@@ -214,8 +210,13 @@ input[type=number] {
 }
 .logo-next{
     height: 50px;
-    margin: 1% 2%;
-    
+    margin: 1% 2%;}
+
+.btn-simulateur:hover{
+    background-color:#15a9bd;
+}
+.btn-simulateur:active{
+    background-color: #001d26;
 }
 
 .btn-simulateur{
@@ -230,6 +231,7 @@ input[type=number] {
     /* justify-content: space-between; */
     /* border: solid 2px red; */
     /* margin: 5% 0px; */
+    transition: 0.3s;
 }
 .contenu-btn-simulateur{
     display: flex;
@@ -287,7 +289,7 @@ input[type=number] {
 /* END SIMULATOR */
 
 /* START SLIDESHOW */
-#discover{
+.discover{
     width: 240px;
     padding: 25px;
     background-color:#008090;
@@ -299,11 +301,11 @@ input[type=number] {
     margin-top:25px;
 }
 
-#discover:hover{
+.discover:hover{
     background-color:#15a9bd;
 }
 
-#discover:active{
+.discover:active{
     background-color: #001d26;
 }
 
@@ -379,8 +381,6 @@ input[type=number] {
     margin-top: 10px;
 }
 /* END SLIDESHOW */
-
-  
 
     /* MODIF PHP */
 /* MODIF TEST PHP */
@@ -472,7 +472,6 @@ input[type=number] {
         justify-content:space-around;
         height: 600px;
         display: flex;
-        
      }
      .rightbotfooter{
         align-items:center;
@@ -490,7 +489,6 @@ input[type=number] {
      .leftbotfooter {
         text-align: center;
      }
-  
 }
 
 

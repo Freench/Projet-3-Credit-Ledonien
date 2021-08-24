@@ -10,8 +10,7 @@
 </head>
 
 <body class="flex">
-
-    
+        
         <div class="header-main">
         <?php include('html/header.php')
             ?>

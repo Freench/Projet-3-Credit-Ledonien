@@ -1,10 +1,10 @@
-    <!-- DIV OF THE DISCOVERY PAGE
+    <!-- DIV OF THE DISCOVERY PAGE -->
     <div id="decouverte">
         <!--DIV OF THE BACKGROUND AND THE SIZE-->
         <div id="background-discovery">
             <!-- DIV OF TITLE OF THE DISCOVERY PAGE -->
             <div id="discovery-title">
-                <h2>Découvrez nos<br> offres et services</h2>
+                <h2 class="white">Découvrez nos<br> offres et services</h2>
                 <p>Auto, Travaux, Déco, <span class="credit-ledonien-weight">le crédit Lédonien</span> propose une
                     solution de<br> financement pour chacun de vos
                     projets personnels.</p>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <!-- DIV OF THE FOUR ARTICLES OF THE DISCOVERY PAGE -->
-        <div class="all-article-discovery">
+        <!-- <div class="all-article-discovery">
             <div class="article-descovery">
                 <div class="frame-decouverte fade-discovery">
                     <img src="images/partnership-6541588_640.jpg" alt="image de l'article 1">
@@ -63,6 +63,6 @@
                         de voiture en association avec nos partenaires locaux</p>
                     <a href="#" class="link-line-discovery">En savoir plus</a>
                 </div>
-            </div>
-        </div>
+            </div> 
+        </div>-->
     </div> 

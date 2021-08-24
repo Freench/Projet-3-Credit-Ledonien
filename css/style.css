@@ -16,15 +16,18 @@ h2 {
 
 div {
    box-sizing: border-box;
+   /* border: 1px solid red; */
 }
 
 body {
    /* background-color: #779bd6; */
    font-family: OpenSans-Regular;
    color: #5b5c5e;
-   font-size: 24px;
+   font-size: 14px;
    margin: 0;
+   line-height: 26px;
 }
+
 
 h3 {
    margin: 0px;
@@ -34,9 +37,9 @@ h3 {
 
 nav {
    background-color: #fff;
-   box-shadow: #000;
+   /* box-shadow: #000; */
    width: 80px;
-   height: 750px;
+   height: 100vh;
    display: flex;
    position: fixed;
    flex-direction: column;
@@ -57,6 +60,10 @@ input {
 input[type=number] {
    -moz-appearance: textfield;
 }
+.white{
+    color: white;
+
+}
 
 /* ARTICLES */
 
@@ -75,7 +82,7 @@ input[type=number] {
 }
 
 .article1 {
-   width: 60%;
+   width: 100%;
    overflow: hidden;
 }
 
@@ -86,7 +93,7 @@ input[type=number] {
 
 .article2 {
    width: 100%;
-   margin-top: 50px;
+   /* margin-top: 50px; */
    overflow: hidden;
 }
 
@@ -95,6 +102,7 @@ input[type=number] {
    color: #001d26;
    font-family: ITC_Eras_Bold;
    font-size: 40px;
+   margin: 0px;
 }
 
 /* END ARTICLES */
@@ -228,7 +236,7 @@ input[type=number] {
    border: solid 30px white;
    /* justify-content: flex-start; */
    row-gap: 6%;
-   box-shadow: 0px 0px 5px black;
+   box-shadow: 0px 0px 10px rgb(204, 204, 204);
 }
 
 #simulateur-cliked {
@@ -493,7 +501,16 @@ strong{
    flex-wrap: wrap;
    box-sizing: border-box;
    /* align-content: center; */
+   width: 94.9%;
+}
 
+.sur-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-main{
+    width: 5.1%;
 }
 
 .header-main {
@@ -509,26 +526,26 @@ strong{
 .simulateur-main {
    width: 40%;
    margin: 5%;
+   z-index: 2;
 }
 
 .article1-main {
-   width: 30%;
-   height: 200px;
+   width: 40%;
+   padding-left: 6vw;
+
 }
 
 .decouverte-main {
-   width: 70%;
-   height: 200px;
+   width: 60%;
 }
 
 .photo-main {
    width: 40%;
-   height: 200px;
 }
 
 .article2-main {
    width: 60%;
-   height: 200px;
+
 }
 
 .footer-main {
@@ -636,7 +653,6 @@ strong{
 /* GLOBAL CONTAINER THAT HAS TO BE FULL PAGE */
 
 .container {
-   height: 100vh;
    display: flex;
    justify-content: flex-end;
    overflow: hidden;
@@ -656,7 +672,7 @@ strong{
    margin-right: 3px;
    display: flex;
    filter: drop-shadow(-19px 0px 25px rgb(94, 94, 94));
-   position: absolute;
+   position: fixed;
 
 
 }
@@ -884,18 +900,23 @@ strong{
 /* SECTION DISCOVERY */
 /* PLACEMENT OF THE DISCOVERY BLOCK */
 #background-discovery {
-   clip-path: polygon(22% 20%, 100% 5%, 100% 95%, 22% 90%, 20% 55%);
+   clip-path: polygon(6% 16%, 100% 5%, 100% 95%, 6% 90%, 3% 55%);
    background-color: #001d26;
    width: 100%;
    height: 100vh;
    display: flex;
    justify-content: space-between;
+   position: absolute;
+   top: -120px;
 }
 
 
 
 /* DISCOVERY TITLE START */
 /* MODIFICATIONS OF THE TITLE OF THE DISCOVERY PAGE */
+#decouverte{
+    position: relative;
+}
 #discovery-title {
    order: 2;
    width: 35%;

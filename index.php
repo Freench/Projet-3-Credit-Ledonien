@@ -13,14 +13,10 @@
 
 
 <body>
-    <div id="menu-slider" class="slidemenu" style="display:none;">
-        <div id="paddingmenu">
-            <a href="#" class="menuTitle">ACCUEIL</a>
-            <a href="#" class="menuTitle">QUI SOMMES-NOUS?</a>
-            <a href="#" class="menuTitle">NOS OFFRES</a>
-            <a href="#" class="menuTitle">CONTACTEZ-NOUS</a>
-        </div>
-    </div>
+    
+        <?php include('html/navbar.php')
+        ?>
+    
     <div class="sur-flex">
         <div class="flex">
             <div class="header-main">
@@ -55,10 +51,8 @@
                 ?>
             </div>
         </div>
-        <div class="nav-main">
-            <?php include('html/navbar.php')
-            ?>
-        </div>
+        
+        
     </div>
     <script type="text/javascript" src="js/script.js"></script>
 </body>

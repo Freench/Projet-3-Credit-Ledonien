@@ -9,6 +9,8 @@
     <meta name="description" content="Essayez notre simulateur de crédit, nous avons vos solution de crédit et nous vous accompagnons vers une solution responsable.">
 </head>
 <body>
+    <header> <?php include("html/header.php")
+            ?>
     <div class="who-banner">
         <p class="title-banner">Le crédit responsable par <br/> le Crédit Lédonien</p>               
     </div>

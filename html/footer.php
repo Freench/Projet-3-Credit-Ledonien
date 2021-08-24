@@ -3,14 +3,14 @@
     
         <!-- FIRST PART OF THE FOOTER -->
         <div class="topfooter">
-            <nav>
+            <div id="navfooter">
                 <ul class ="sitemap">
-                    <li><a href="" class="sitemaplink">Accueil</a></li>
+                    <li><a href="index.php" class="sitemaplink">Accueil</a></li>
                     <li><a href="qui.php" class="sitemaplink">Qui sommes-nous?</a></li>
                     <li><a href="" class="sitemaplink">Nos Offres</a></li>
                     <li><a href="" class="sitemaplink">Contactez-nous</a></li>
                 </ul>
-            </nav>
+</div>
         </div>
         <!-- SECOND PART OF THE FOOTER -->
         <div class="botfooter">

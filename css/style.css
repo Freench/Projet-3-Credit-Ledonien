@@ -133,6 +133,14 @@ input[type=number] {
 
 }
 
+#navfooter{
+   
+   box-shadow: #000;
+   width: 90vw;
+   text-align: center;
+   align-items: center;
+}
+
 .sitemap {
    list-style-type: none;
    display: flex;
@@ -1094,6 +1102,7 @@ strong{
    color : white;
    font-size : 65px;
    text-align: center;
+   line-height: 80px;
 
 }
 

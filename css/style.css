@@ -1,36 +1,85 @@
+
+strong{
+    color: #000000;
+    font-family: OpenSans-SemiBold;
+}
+button{
+   border: none;
+}
+
 h2 {
-    color:#001d26;
-    font-family:ITC_Eras_Bold;
-    font-size: 55px;
-    line-sheight: 47px;
+   color:#001d26;
+   font-family:ITC_Eras_Bold;
+   font-size: 55px;
+   line-height: 47px;
+}
+div{
+   box-sizing: border-box;
 }
 body{
-    /* background-color: #779bd6; */
-    font-family: OpenSans-Regular;
-    color: #5b5c5e;
-    font-size: 24px;
-    margin:0;
+   /* background-color: #779bd6; */
+   font-family: OpenSans-Regular;
+   color: #5b5c5e;
+   font-size: 24px;
+   margin:0;
 }
 h3{
-    margin: 0px;
-    font-family: ITC_Eras_Bold;
-    font-size: 30px;
+   margin: 0px;
+   font-family: ITC_Eras_Bold;
+   font-size: 30px;
 }
 input{
-    -webkit-appearance: none;
-    margin: 0;
-    height: 80px;
-    width: 100%;
-    border : solid 1px rgb(91,91,91);
-    text-align: center;
-    font-size: 24px;
+   -webkit-appearance: none;
+   margin: 0;
+   height: 80px;
+   width: 100%;
+   border : solid 1px rgb(91,91,91);
+   text-align: center;
+   font-size: 24px;
 }
 
 input[type=number] {
-    -moz-appearance: textfield;
+   -moz-appearance: textfield;
+}
+
+/* ARTICLES */
+
+.mi-strong{
+   font-family: OpenSans-SemiBold;
+   color: #464646;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    width: 63%;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.article1{
+    width: 60%;
+    overflow: hidden;
 }
 
 
+.image-article{
+    margin: auto;
+}
+
+.article2{
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.article1 h2, .article2 h2{
+    color:#001d26;
+    font-family:ITC_Eras_Bold;
+    font-size: 40px;
+}
+
+/* END ARTICLES */
 
 /* HEADER */
 .top-warning {
@@ -138,23 +187,6 @@ input[type=number] {
    text-decoration:none;
 }
 
-/* MEDIA QUERIES */
-
-
-   
-
-
-
-
-@font-face {
-   font-family: ITC_Eras_Bold; 
-   src: url(../fonts/ErasBoldITC.ttf) format("truetype");
-}
-
-
-
-
-
 /* SIMULATEUR */
 #simulateur{
     background-color: white;
@@ -185,6 +217,7 @@ input[type=number] {
     margin: 1% 2%;
     
 }
+<<<<<<< HEAD
 button{
     border: none;
 }
@@ -195,6 +228,9 @@ button{
 .btn-simulateur:active{
     background-color: #001d26;
 }
+=======
+
+>>>>>>> c2e04fb5f01c231d4943efb6f8482a11015a755c
 .btn-simulateur{
     color: white;
     display: flex;
@@ -368,9 +404,6 @@ button{
 
 }
 
-div{
-    box-sizing: border-box;
-}
 .header-main{
     width: 100%;
 }
@@ -408,8 +441,6 @@ div{
     .banner {
         display:block;
         text-align: center;
-    }
-    .flex{
     }
     .pret-main{
         width: 100%;

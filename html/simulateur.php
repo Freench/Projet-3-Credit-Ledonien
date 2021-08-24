@@ -5,28 +5,28 @@
 
         <!-- Les 3 boutons -->
         <button id="btn-pret-personnel" class="btn-simulateur" type="button" value="clickme">
-            <img src="image/carte-de-credit-simple.svg" alt="logo carte bancaire" class="logo-simulateur">
+            <img src="images/carte-de-credit-simple.svg" alt="logo carte bancaire" class="logo-simulateur">
             <div class="contenu-btn-simulateur">
                 <h3>Prêt Personnel</h3>
                 <p class="sous-titre">Un crédit à partir de 5 000 €</p>
             </div>
-            <img src="image/next.svg" alt="logo flèche droite" class="logo-next btn-simulateur-fleche">
+            <img src="images/next.svg" alt="logo flèche droite" class="logo-next btn-simulateur-fleche">
         </button>
         <button class="btn-simulateur">
-            <img src="image/carte-de-credit-fleches.svg" alt="logo carte bancaire" class="logo-simulateur">
+            <img src="images/carte-de-credit-fleches.svg" alt="logo carte bancaire" class="logo-simulateur">
             <div class="contenu-btn-simulateur">
                 <h3>Crédit renouvelable</h3>
                 <p class="sous-titre">Un crédit jusqu'à 3 000 €</p>
             </div>
-            <img src="image/next.svg" alt="logo flèche droite" class="logo-next btn-simulateur-fleche">
+            <img src="images/next.svg" alt="logo flèche droite" class="logo-next btn-simulateur-fleche">
         </button>
         <button class="btn-simulateur">
-            <img src="image/carte-de-credit-doubles.svg" alt="logo carte bancaire" class="logo-simulateur">
+            <img src="images/carte-de-credit-doubles.svg" alt="logo carte bancaire" class="logo-simulateur">
             <div class="contenu-btn-simulateur">
                 <h3>Rachat de crédit</h3>
                 <p class="sous-titre">Regroupez tous vos crédits en un seul</p>
             </div>
-            <img src="image/next.svg" alt="logo flèche droite" class="logo-next btn-simulateur-fleche">
+            <img src="images/next.svg" alt="logo flèche droite" class="logo-next btn-simulateur-fleche">
         </button>
         <!-- Fin les 3 boutons -->
     </div>

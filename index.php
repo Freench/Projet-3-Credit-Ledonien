@@ -13,10 +13,8 @@
 
 
 <body>
-    
         <?php include('html/navbar.php')
         ?>
-    
     <div class="sur-flex">
         <div class="flex">
             <div class="header-main">
@@ -51,8 +49,6 @@
                 ?>
             </div>
         </div>
-        
-        
     </div>
     <script type="text/javascript" src="js/script.js"></script>
 </body>

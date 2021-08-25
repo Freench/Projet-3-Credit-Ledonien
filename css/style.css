@@ -542,13 +542,13 @@ strong{
 }
 
 .article1-main {
-   width: 40%;
+   width: 37%;
    padding-left: 6vw;
 
 }
 
 .decouverte-main {
-   width: 60%;
+   width: 63%;
 }
 
 .photo-main {
@@ -917,8 +917,7 @@ strong{
    background-color: #001d26;
    width: 100%;
    height: 100vh;
-   display: flex;
-   justify-content: space-between;
+   z-index: -1;
    position: absolute;
    top: -120px;
 }
@@ -928,27 +927,34 @@ strong{
 /* DISCOVERY TITLE START */
 /* MODIFICATIONS OF THE TITLE OF THE DISCOVERY PAGE */
 #decouverte{
-    position: relative;
+   position: relative;
+   display: flex;
+   justify-content: space-evenly;
+   height: 400px;
 }
-#discovery-title {
-   order: 2;
-   width: 35%;
-   color: #dbdbdb;
-   text-align: right;
+#discovery-all{
    display: flex;
    flex-direction: column;
-   padding: 180px 50px 0 0;
+   width: 55%;
+}
+.discovery-title {
+   color: #dbdbdb;
+   padding: 0px 0px 0px 50px;
 }
 
 /*FONT AND WRITING SIZE FOR THE H2*/
-#discovery-title h2 {
+.discovery-title h2 {
    font-family: ITC_Eras_Bold;
-   font-size: 41px;
+   font-size: calc(10px + 1.6vw);
+   margin: 30px 0px 10px 0px;
 }
 
 /*FONT AND WRITING SIZE FOR THE P*/
-#discovery-title p {
+.discovery-title p {
    font-family: OpenSans-Regular;
+   font-size: 12px;
+   margin: 0px;
+   line-height: 20px;
 }
 
 /*FONT-WEIGHT FOR THE CREDIT LÉDONIEN ON P*/
@@ -963,18 +969,24 @@ strong{
 /*NAME-OF-ARTICLES START*/
 /* PALCEMENT OF THE FOUR NAVIGATION MENUS */
 .names-Of-Articles {
-   order: 1;
-   width: 55%;
+   /* order: 1; */
+   width: 45%;
    display: flex;
-   align-items: center;
-   justify-content: flex-end;
-   padding-top: 100px;
+   /* align-items: center; */
+   /* justify-content: flex-end; */
+   padding-top: 13%;
+   margin-left: -20px;
 }
 
 /*ALIGNMENT OF THE PARTS*/
 .names-Of-Articles ul li {
    flex-direction: column;
    list-style: none;
+   margin-top: 20px ;
+}
+.names-Of-Articles ul{
+   width: 80%;
+   padding-left: 70px;
 }
 
 /*FONT AND WRITING SIZE FOR THE H3*/
@@ -994,7 +1006,7 @@ strong{
    border: none;
    text-align: left;
    border-bottom: 3px solid;
-   width: 400px;
+   width: 100%;
    padding: 10px 0 2px 0;
    cursor: pointer;
    color: rgb(255, 255, 255, 0.4);
@@ -1027,20 +1039,27 @@ strong{
 .all-article-discovery {
    display: flex;
    position: absolute;
-   bottom: 0px;
+   bottom: -265px;
    right: 0px;
-   margin: -170px 0;
 
 }
 
 .frame-decouverte {
    display: none;
-   clip-path: polygon(0% 0, 100% 0%, 100% 85%, 0% 90%);
+   clip-path: polygon(0% 0, 100% 0%, 100% 75%, 0% 80%);
    background-color: #008090;
    height: 70vh;
-   width: 40vw;
+   width: 30vw;
+   position: relative;
 }
-
+#et-la-lumiere-fut1{
+   /* display: none; */
+   clip-path: polygon(0% 0, 20% 0%, 100% 75%, 0% 80%);
+   background-color: #008090;
+   opacity: 20%;
+   height: 70vh;
+   width: 30vw;
+}
 
 /* PLACEMENT OF ALL IMAGES */
 .article-descovery img {
@@ -1055,21 +1074,23 @@ strong{
 .article-descovery p {
    font-family: OpenSans-Regular;
    color: #dbdbdb;
-   font-size: 20px;
+   font-size: 14px;
    letter-spacing: 1px;
    width: 73%;
    display: block;
-   margin: 20px auto;
+   margin-left: 53px;
+   margin-top: 15px;
+   line-height: initial;
 }
 
 .article-descovery a {
    font-family: OpenSans-SemiBold;
-   font-size: 18px;
+   font-size: 16px;
    color: #dbdbdb;
    text-decoration: none;
    width: 71%;
    display: block;
-   margin: auto;
+   margin-left: 53px;
 }
 
 .link-line-discovery::after {
@@ -1102,9 +1123,7 @@ strong{
    align-items: center;
    justify-content: center;
    display:flex;
-   
-}  
-    
+}
 .title-banner{
    font-family: ITC_Eras_Bold;
    color : white;
@@ -1136,7 +1155,6 @@ strong{
    .all-articles{
       order:2;
       max-width:90vw;
-      
    }
    article h2{
       text-align: center;

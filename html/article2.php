@@ -25,5 +25,5 @@
                 Au service de nos clients, nous facilitons l’accès à une consommation plus responsable et plus durable.
                 Alors soyons toujours plus responsables, ensemble.
             </p>
-            <button type ="button" id="knowmore"> En savoir plus <img src="images/knowmore-arrow.svg" id="knowmore-arrow"> </button>
+            <button type ="button" id="knowmore"> <p>En savoir plus</p> <img src="images/knowmore-arrow.svg" id="knowmore-arrow"> </button>
         </div>

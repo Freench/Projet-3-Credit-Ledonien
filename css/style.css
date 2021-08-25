@@ -44,7 +44,7 @@ nav {
    background-color: #fff;
    box-shadow: #000;
    width : 80px;
-   height : 750px;
+   height : 100vh;
    display:flex;
    position:fixed;
    right: 0px;
@@ -99,8 +99,10 @@ input[type=number] {
 
 .article2 {
    width: 100%;
-   /* margin-top: 50px; */
+   padding-top:10%;
+   padding-bottom: 5%;
    overflow: hidden;
+   padding-left: 2vw;
 }
 
 .article1 h2,
@@ -109,6 +111,25 @@ input[type=number] {
    font-family: ITC_Eras_Bold;
    font-size: 40px;
    margin: 0px;
+}
+
+#knowmore {
+   background-color: #008090;
+   color:#fff;
+   font-family:OpenSans-Regular;
+   font-size: 17px;
+   padding-top: 10px;
+   padding-bottom:10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   display: flex;
+   align-items: center;
+   
+}
+#knowmore-arrow {
+   height:15px;
+   margin-left: 30px;
+
 }
 
 /* END ARTICLES */
@@ -168,7 +189,7 @@ input[type=number] {
 /* BOTTOM PART OF THE FOOTER */
 
 .botfooter {
-   height: 300px;
+   
    background-color: #001d26;
    display: flex;
    justify-content: space-around;
@@ -551,13 +572,18 @@ strong{
    width: 60%;
 }
 
+.photo-main img {
+   width: 40vw;
+   
+}
 .photo-main {
-   width: 40%;
+   margin-top: 5vw;
+   margin-bottom: 5vw;
+   margin-left: 1vw;
 }
 
 .article2-main {
-   width: 60%;
-
+   width: 50vw;
 }
 
 .footer-main {
@@ -570,13 +596,20 @@ strong{
       display: block;
       text-align: center;
    }
+   .article-main p {
+      font-size : 20px;
+      line-height: 40px;
+      padding : 5vw;
+   }
 
    .pret-main {
       width: 100%;
+      margin-bottom: 10vh;
    }
 
    .simulateur-main {
       width: 100%;
+      margin-bottom: 10vh;
    }
 
    .article1-main {
@@ -619,8 +652,14 @@ strong{
    .botfooter {
       flex-direction: column;
       justify-content: space-around;
-      height: 600px;
-      display: flex;
+      padding-bottom: 80px;
+      padding-top: 50px;
+      
+      
+      
+   }
+   .flex{
+      width : 100%;
    }
 
    .rightbotfooter {
@@ -628,9 +667,11 @@ strong{
       font-size: 16px;
    }
 
-   .infosfooter {
+   .infosfooter p {
       font-size: 16px;
       margin-bottom: 30px;
+      padding:0px;
+      
    }
 
    .loanwarning {
@@ -849,6 +890,7 @@ strong{
       height: 80px;
       justify-content: space-between;
       align-items: center;
+      bottom:0px;
 
    }
 
@@ -863,6 +905,7 @@ strong{
       border-radius: 50%;
       background-color: #fff;
       z-index: 11;
+      bottom: 0px;
    }
 
    .lang {
@@ -1118,7 +1161,7 @@ strong{
 
 @media screen and (max-width : 600px){
    .title-banner{
-      font-size: 25px;
+      font-size: 35px;
    }
 }
 
@@ -1138,7 +1181,7 @@ strong{
       max-width:90vw;
       
    }
-   article h2{
+   .article1 h2 , .article2 h2{
       text-align: center;
    }
 }

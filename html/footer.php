@@ -31,5 +31,9 @@
                 <a href="" class="legallink">Politique de confidentialité</a>
                 <p>Une réalisation <a href="https://promo-93.codeur.online/blog/" target="_blank" rel="noopener" class="credit">ACS Lons le Saunier</a></p>
             </div>
+            
         </div>
+        <div>
+                    <a href="#hexagon"><img class="hexagon" src="images/hexagon.png" alt=""></a>
+            </div>
 

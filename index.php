@@ -42,10 +42,14 @@
             <div class="photo-main">
                 <img src="images/money-arbre.png" alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
             </div>
+            <div class="photo-main-responsive">
+                <img src="images/money-2724235_1920.jpg" alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
+            </div>
             <div class="article2-main">
                 <?php include('html/article2.php')
                 ?>
             </div>
+            
             <div class="footer-main">
                 <?php include('html/footer.php')
                 ?>

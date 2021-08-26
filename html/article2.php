@@ -26,4 +26,7 @@
                 Alors soyons toujours plus responsables, ensemble.
             </p>
             <button type ="button" id="knowmore"> <p>En savoir plus</p> <img src="images/knowmore-arrow.svg" id="knowmore-arrow"> </button>
+            <div>
+                    <img class="hexagon" src="images/hexagon.png" alt="">
+                </div>
         </div>

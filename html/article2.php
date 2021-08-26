@@ -26,8 +26,8 @@
                 Alors soyons toujours plus responsables, ensemble.
             </p>
             <div>
-                    <img class="hexagon" src="images/hexagon.png" alt="">
-                </div>
+                    <a href="#hexagon"><img class="hexagon" src="images/hexagon.png" alt=""></a>
+            </div>
             <input type ="button" name="knowmore" id="knowmore" value="En savoir plus"> 
             <!-- <p>En savoir plus</p> <img src="images/knowmore-arrow.svg" id="knowmore-arrow"> </button> -->
         </div>

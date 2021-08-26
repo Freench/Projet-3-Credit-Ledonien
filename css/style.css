@@ -701,10 +701,11 @@ strong {
 
    }
    .hexagon{
-      position: absolute;
-      bottom: 500px;
-      right: 250px;
-
+      position: fixed;
+      right: 50px;
+      bottom: 100px;
+      opacity: 0.7;
+      z-index: 15;
    }
 
    .topfooter {

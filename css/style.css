@@ -30,10 +30,13 @@ body {
    font-size: 14px;
    margin: 0;
    line-height: 26px;
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;
 
 }
-
-
+body::-webkit-scrollbar{
+   display:none;
+}
 h3 {
    margin: 0px;
    font-family: ITC_Eras_Bold;
@@ -119,22 +122,25 @@ input[type=number] {
    color: #fff;
    font-family: OpenSans-Regular;
    font-size: 17px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   width:fit-content;
+   height: fit-content;
+   border:none;
+   transition: 0.3s;
    padding-left: 20px;
    padding-right: 20px;
-   display: flex;
-   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px; 
+   
+   
 
 }
 
-#knowmore p {
-   padding: 0px;
-   margin: 0px;
-}
-
-#knowmore :hover {
+#knowmore:hover {
    cursor: pointer;
+   background-color:#15a9bd;   
+}
+#knowmore:active{
+   background-color: #001d26;
 }
 
 #knowmore-arrow {
@@ -270,12 +276,11 @@ input[type=number] {
    background-color: white;
    display: flex;
    flex-direction: column;
-   /* width: 35%; */
    height: 590px;
    border: solid 30px white;
-   /* justify-content: flex-start; */
    row-gap: 6%;
    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+   
 }
 
 #simulateur-cliked {
@@ -286,6 +291,7 @@ input[type=number] {
    height: 85vh;
    row-gap: 6%;
    border: solid 30px white;
+   box-shadow: 0px 0px 10px rgb(204, 204, 204);
 }
 
 #simulateur h2,
@@ -312,7 +318,25 @@ input[type=number] {
 .btn-simulateur:hover {
    background-color: #15a9bd;
 }
-
+#btn-retour-simulateur{
+   color:white;
+   background-color: #008090;
+   padding-top : 10px;
+   padding-bottom : 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   transition: 0.3s;
+}
+#btn-retour-simulateur:hover{
+   color:white;
+   background-color: #15a9bd;
+   cursor: pointer;   
+}
+#btn-retour-simulateur:active{
+   color:white;
+   background-color: #001d26;
+   cursor: pointer;   
+}
 /* Articles */
 strong {
    color: #001d26;
@@ -956,7 +980,7 @@ nav a {
       flex-direction: row;
       width: 100%;
       height: 80px;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
       bottom: 0px;
       display:flex;
@@ -977,6 +1001,7 @@ nav a {
       height: 50px;
       width: 50px;
       font-size: 18px;
+      margin: 0;
    }
 
    .call {
@@ -984,7 +1009,7 @@ nav a {
       width: 50px;
       align-items: center;
       justify-content: center;
-      margin-right: 5vw;
+      margin : 0;
    }
 
    #phone {

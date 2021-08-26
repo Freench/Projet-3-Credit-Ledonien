@@ -970,7 +970,7 @@ strong{
 
 /*NAME-OF-ARTICLES START*/
 /* PALCEMENT OF THE FOUR NAVIGATION MENUS */
-.names-Of-Articles {
+#names-Of-Articles {
    /* order: 1; */
    width: 45%;
    display: flex;
@@ -981,18 +981,18 @@ strong{
 }
 
 /*ALIGNMENT OF THE PARTS*/
-.names-Of-Articles ul li {
+#list-article li {
    flex-direction: column;
    list-style: none;
    margin-top: 20px ;
 }
-.names-Of-Articles ul{
+#list-article{
    width: 80%;
    padding-left: 70px;
 }
 
 /*FONT AND WRITING SIZE FOR THE H3*/
-.names-Of-Articles h3 {
+#list-article h3 {
    font-family: OpenSans-Light;
    font-size: 16px;
 }
@@ -1038,7 +1038,7 @@ strong{
 
 /*ARTICLES STARTS*/
 /* THE FOUR PARTS OF THE DISCOVERY PAGE*/
-.all-article-discovery {
+#all-article-discovery {
    display: flex;
    /* position: absolute; */
    margin-top: 30px;
@@ -1135,7 +1135,7 @@ strong{
    #decouverte{
       flex-wrap: wrap;
    }
-   .names-Of-Articles{
+   #names-Of-Articles{
       width: 100%;
       order: 2;
    }
@@ -1149,6 +1149,9 @@ strong{
 
    .discovery-title h2{
       font-size: 30px;
+   }
+   .buttom-article{
+      width: 70%;
    }
 }
 

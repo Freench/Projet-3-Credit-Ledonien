@@ -153,6 +153,7 @@ window.addEventListener('resize', function(){
 function switchButtonPosition(){
 
     let discoveryAll = document.getElementById('discovery-all');
+    let saveDiscoveryAll = document.getElementById('discovery-all').innerHTML;
     let listArticle = document.getElementById("list-article");
     let article1 = document.getElementById("article01");
     let article2 = document.getElementById("article02");
@@ -173,8 +174,11 @@ function switchButtonPosition(){
     }
     else if(!big){
         big = true
-        console.log("lalalalallala")
-        location.reload();
+        document.getElementById('names-Of-Articles').appendChild(listArticle)
+        document.getElementById('all-article-discovery').appendChild(article1)
+        document.getElementById('all-article-discovery').appendChild(article2)
+        document.getElementById('all-article-discovery').appendChild(article3)
+        document.getElementById('all-article-discovery').appendChild(article4)
     }
 }
 

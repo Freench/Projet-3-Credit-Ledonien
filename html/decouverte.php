@@ -1,7 +1,7 @@
     <!-- DIV OF THE DISCOVERY PAGE -->
     <div id="decouverte">
         <!-- DIV OF THE FOUR BUTTOM OF THE ARTICLES OF THE DISCOVERY PAGE -->
-        <div class="names-Of-Articles" >
+        <div id="names-Of-Articles" >
             <ul id="list-article">
                 <li id="btn-article01"><button class="buttom-article" onclick="currentFrameD(0)">
                         <h3>Trouvez votre prochain véhicule !</h3>
@@ -30,7 +30,7 @@
             </div>
 
             <!-- DIV OF THE FOUR ARTICLES OF THE DISCOVERY PAGE -->
-            <div class="all-article-discovery">
+            <div id="all-article-discovery">
             <div class="article-descovery" id="article01">
                 <div class="frame-decouverte fade-discovery">
                     <img src="images/partnership-6541588_640.jpg" alt="image de l'article 1">

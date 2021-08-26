@@ -138,3 +138,43 @@ function showFramesD(n) {
     framesD[frameIndexD].style.display = "block";
     dotsD[frameIndexD].className += " activeD";
 }
+
+
+
+let big = true;
+if (window.innerWidth <= 1024){
+    big = false;
+    switchButtonPosition()
+}
+window.addEventListener('resize', function(){
+    switchButtonPosition()
+});
+
+function switchButtonPosition(){
+
+    let discoveryAll = document.getElementById('discovery-all');
+    let listArticle = document.getElementById("list-article");
+    let article1 = document.getElementById("article01");
+    let article2 = document.getElementById("article02");
+    let article3 = document.getElementById("article03");
+    let article4 = document.getElementById("article04");
+
+    if( window.innerWidth <= 1024){
+        big = false
+        discoveryAll.appendChild(listArticle);
+        let enfants = discoveryAll.childNodes;
+        enfants[9].after(enfants[5]);
+
+        let enfantsArticle = listArticle.childNodes;
+        enfantsArticle[1].appendChild(article1)
+        enfantsArticle[3].appendChild(article2)
+        enfantsArticle[5].appendChild(article3)
+        enfantsArticle[7].appendChild(article4)
+    }
+    else if(!big){
+        big = true
+        console.log("lalalalallala")
+        location.reload();
+    }
+}
+

@@ -1,3 +1,5 @@
+console.log(window.location)
+
 // Le script à pour but d'effectuer les calculs du simulateurs la difficulté est de détecter les deux derniers champs qui ont été modifiés et de calculer le 3ème
 //Initialisation variables
 let elementEmprun = document.getElementById('emprun');
@@ -124,4 +126,79 @@ let frameIndex = 0;
 
         // END SLIDESHOW
         
+
+        // MENU NAV
+// let mainMenu = document.getElementById("menu-slider")
+//         document.getElementById("menuburger").addEventListener("click", function(){
+//             if (mainMenu.style.display === "none"){
+//                 mainMenu.style.display = "block";
+//             } else {
+//                 mainMenu.style.display = "none";
+//             }
+//         });
+        // END NAV
+let frameIndexD = 0;
+showFramesD(frameIndexD);
+
+function currentFrameD(n) {
+    showFramesD(frameIndexD = n);
+}
+
+function showFramesD(n) {
+    let j;
+    let framesD = document.getElementsByClassName("frame-decouverte");
+    let dotsD = document.getElementsByClassName("buttom-article");
+
+    for (j = 0; j < framesD.length; j++) {
+        framesD[j].style.display = "none";
+    }
+    for (j = 0; j < dotsD.length; j++) {
+        dotsD[j].className = dotsD[j].className.replace(" activeD", "");
+    }
+    framesD[frameIndexD].style.display = "block";
+    dotsD[frameIndexD].className += " activeD";
+}
+
+
+
+let big = true;
+if (window.innerWidth <= 1024){
+    big = false;
+    switchButtonPosition()
+}
+window.addEventListener('resize', function(){
+    switchButtonPosition()
+});
+
+function switchButtonPosition(){
+
+    let discoveryAll = document.getElementById('discovery-all');
+    let saveDiscoveryAll = document.getElementById('discovery-all').innerHTML;
+    let listArticle = document.getElementById("list-article");
+    let article1 = document.getElementById("article01");
+    let article2 = document.getElementById("article02");
+    let article3 = document.getElementById("article03");
+    let article4 = document.getElementById("article04");
+
+    if( window.innerWidth <= 1024){
+        big = false
+        discoveryAll.appendChild(listArticle);
+        let enfants = discoveryAll.childNodes;
+        enfants[9].after(enfants[5]);
+
+        let enfantsArticle = listArticle.childNodes;
+        enfantsArticle[1].appendChild(article1)
+        enfantsArticle[3].appendChild(article2)
+        enfantsArticle[5].appendChild(article3)
+        enfantsArticle[7].appendChild(article4)
+    }
+    else if(!big){
+        big = true
+        document.getElementById('names-Of-Articles').appendChild(listArticle)
+        document.getElementById('all-article-discovery').appendChild(article1)
+        document.getElementById('all-article-discovery').appendChild(article2)
+        document.getElementById('all-article-discovery').appendChild(article3)
+        document.getElementById('all-article-discovery').appendChild(article4)
+    }
+}
 

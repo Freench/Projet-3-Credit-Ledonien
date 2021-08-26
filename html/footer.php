@@ -7,8 +7,8 @@
                 <ul class ="sitemap">
                     <li><a href="index.php" class="sitemaplink">Accueil</a></li>
                     <li><a href="qui.php" class="sitemaplink">Qui sommes-nous?</a></li>
-                    <li><a href="" class="sitemaplink">Nos Offres</a></li>
-                    <li><a href="" class="sitemaplink">Contactez-nous</a></li>
+                    <li><a href="#" class="sitemaplink">Nos Offres</a></li>
+                    <li><a href="#" class="sitemaplink">Contactez-nous</a></li>
                 </ul>
 </div>
         </div>
@@ -28,7 +28,7 @@
             </div>
             <div class="rightbotfooter">
                 <a href="qui.php" class="legallink">Mentions légales</a>
-                <a href="" class="legallink">Politique de confidentialité</a>
+                <a href="#" class="legallink">Politique de confidentialité</a>
                 <p>Une réalisation <a href="https://promo-93.codeur.online/blog/" target="_blank" rel="noopener" class="credit">ACS Lons le Saunier</a></p>
             </div>
             

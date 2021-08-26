@@ -610,6 +610,7 @@ strong {
    .banner {
       display: block;
       text-align: center;
+      padding-bottom: 4vw;
    }
 
    .article-main p {
@@ -626,6 +627,8 @@ strong {
    .simulateur-main {
       width: 100%;
       margin-bottom: 10vh;
+      margin-left:2%;
+      margin-right:2%;
    }
 
    .article1-main {
@@ -684,10 +687,11 @@ strong {
       font-size: 16px;
    }
 
-   .infosfooter p {
+   .infosfooter {
       font-size: 16px;
       margin-bottom: 30px;
       padding: 0px;
+      text-align: center;
 
    }
 
@@ -1183,18 +1187,10 @@ nav a {
 .title-banner {
    font-family: ITC_Eras_Bold;
    color: white;
-   font-size: 65px;
+   font-size: 5vw;
    text-align: center;
-   line-height: 80px;
+   line-height: 6vw;
 
-}
-
-/* MEDIA FOR THE TITLE OF THE BANNER */
-
-@media screen and (max-width : 600px) {
-   .title-banner {
-      font-size: 35px;
-   }
 }
 
 /* MEDIA FOR THE WHOLE PAGE */
@@ -1222,6 +1218,13 @@ nav a {
    }
    #container-fluid{
       padding:0;
+   }
+   h2{
+      font-size: 5vw;
+      line-height: 6vw;
+   }
+   #menu-slider{
+      width:100vw;
    }
 }
 

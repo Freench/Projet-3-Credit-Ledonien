@@ -74,6 +74,19 @@ document.getElementById("btn-retour-simulateur").onclick = function () {
     document.getElementById('simulateur').style.display = 'flex';
 };
 
+// MENU NAV
+let mainMenu = document.getElementById("menu-slider")
+console.log("   coucou")
+        document.getElementById("menuburger").addEventListener("click", function(){
+            if (mainMenu.style.display === "none"){
+                
+                mainMenu.style.display = "block";    
+            } else {
+                
+                mainMenu.style.display = "none";
+            }
+        });
+        // END NAV
 // SLIDESHOW
 
 let frameIndex = 0;
@@ -107,36 +120,5 @@ let frameIndex = 0;
         }
 
         // END SLIDESHOW
-        // MENU NAV
-let mainMenu = document.getElementById("menu-slider")
-        document.getElementById("menuburger").addEventListener("click", function(){
-            if (mainMenu.style.display === "none"){
-                
-                mainMenu.style.display = "block";    
-            } else {
-                
-                mainMenu.style.display = "none";
-            }
-        });
-        // END NAV
-let frameIndexD = 0;
-showFramesD(frameIndexD);
+        
 
-function currentFrameD(n) {
-    showFramesD(frameIndexD = n);
-}
-
-function showFramesD(n) {
-    let j;
-    let framesD = document.getElementsByClassName("frame-decouverte");
-    let dotsD = document.getElementsByClassName("buttom-article");
-
-    for (j = 0; j < framesD.length; j++) {
-        framesD[j].style.display = "none";
-    }
-    for (j = 0; j < dotsD.length; j++) {
-        dotsD[j].className = dotsD[j].className.replace(" activeD", "");
-    }
-    framesD[frameIndexD].style.display = "block";
-    dotsD[frameIndexD].className += " activeD";
-}

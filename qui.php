@@ -80,18 +80,8 @@
         </footer>
 
     </div>
-    <script type="text/javascript">
-    let mainMenu = document.getElementById("menu-slider")
-        document.getElementById("menuburger").addEventListener("click", function(){
-            if (mainMenu.style.display === "none"){
-                
-                mainMenu.style.display = "block";    
-            } else {
-                
-                mainMenu.style.display = "none";
-            }
-        });
-    </script>
+    
+    <script src="js/script.js"></script>
 </body>
 
 </html>

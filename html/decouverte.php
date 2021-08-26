@@ -37,6 +37,7 @@
                         de voiture en association avec nos partenaires locaux</p>
                     <a href="#" class="link-line-discovery">En savoir plus</a>
                     <div id="et-la-lumiere-fut1"></div>
+                    <div id="et-la-lumiere-fut2"></div>
                 </div>
             </div>
             <div class="article-descovery">
@@ -69,6 +70,6 @@
     </div>
     <div id="background-discovery">
         
-        <div id="et-la-lumiere-fut2"></div>
+       
     </div>
         </div>

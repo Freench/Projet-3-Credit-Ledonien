@@ -1054,14 +1054,26 @@ strong{
    width: 100%;
    position: relative;
 }
-/* #et-la-lumiere-fut1{
+#et-la-lumiere-fut1{
    position: absolute;
-   clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
-   background-color: red;
-   opacity: 100%;
+   clip-path: polygon(20px 0%, 220px 0%, 900px 100%, 200px 100%);
+   background-color: white;
+   top: 0px;
+   opacity: 20%;
    height: 100%;
    width: 100%;
-} */
+   z-index: -1;
+}
+#et-la-lumiere-fut2{
+   position: absolute;
+   clip-path: polygon(250px 0%, 450px 0%, 5px 100%, -50px 100%);
+   background-color: white;
+   top: 0px;
+   opacity: 20%;
+   height: 45%;
+   width: 100%;
+   z-index: -1;
+}
 
 /* PLACEMENT OF ALL IMAGES */
 .article-descovery img {
@@ -1109,11 +1121,38 @@ strong{
    transition: width 0.5s;
 }
 
+@media screen and (max-width: 1024px){
+   #et-la-lumiere-fut1{
+      display: none;
+   }
+   #et-la-lumiere-fut2{
+      display: none;
+   }
+   #discovery-all{
+      width : 100%;
+      order: 1;
+   }
+   #decouverte{
+      flex-wrap: wrap;
+   }
+   .names-Of-Articles{
+      width: 100%;
+      order: 2;
+   }
+   #background-discovery{
+      clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 100%);
+      top: 0;
+   }
+   .frame-decouverte{
+      height: 500px;
+   }
+
+   .discovery-title h2{
+      font-size: 30px;
+   }
+}
+
 /*ARTICLES END*/
-
-
-
-
 
 .who-banner{
    height:46vw;
@@ -1132,7 +1171,6 @@ strong{
    font-size : 65px;
    text-align: center;
    line-height: 80px;
-
 }
 
 /* MEDIA FOR THE TITLE OF THE BANNER */

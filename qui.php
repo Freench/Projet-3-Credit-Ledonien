@@ -66,6 +66,9 @@
                     <h2>Écouter, proposer, accompagner chacun d’entre vous.</h2>
                     <p>Parce que chaque besoin de financement est différent, Cetelem s’engage chaque jour à vous
                         accompagner afin de vous proposer une solution adaptée à votre situation.</p>
+                        <div>
+                    <img class="hexagon" src="images/hexagon.png" alt="">
+                </div>
                 </article>
             </div>
             <div class="simulateur-main">

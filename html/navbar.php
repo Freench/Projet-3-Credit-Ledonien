@@ -10,10 +10,10 @@
         </div>
     
         <div id="paddingmenu">
-            <a href="../index.php" class="menuTitle" id="test">ACCUEIL</a>
-            <a href="qui.php" class="menuTitle">QUI SOMMES-NOUS?</a>
-            <a href="#" class="menuTitle">NOS OFFRES</a>
-            <a href="#" class="menuTitle">CONTACTEZ-NOUS</a>
+            <a href="../index.php" class="menuTitle" id="home">ACCUEIL</a>
+            <a href="qui.php" class="menuTitle" id="who">QUI SOMMES-NOUS?</a>
+            <a href="#" class="menuTitle" id="offers">NOS OFFRES</a>
+            <a href="#" class="menuTitle" id="contactus">CONTACTEZ-NOUS</a>
         </div>
     </div>
  

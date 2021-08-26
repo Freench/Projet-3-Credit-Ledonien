@@ -80,12 +80,15 @@ console.log("   coucou")
         document.getElementById("menuburger").addEventListener("click", function(){
             if (mainMenu.style.display === "none"){
                 
-                mainMenu.style.display = "block";    
+                mainMenu.style.display = "block"
+                document.body.style.overflow = "hidden"    
             } else {
                 
-                mainMenu.style.display = "none";
+                mainMenu.style.display = "none"
+                document.body.style.overflow = "auto"
             }
         });
+
         // END NAV
 // SLIDESHOW
 

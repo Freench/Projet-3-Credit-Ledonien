@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <!-- <img class="absolute-kiki" src="images/Monchhichi.jfif" alt="kiki woula"> -->
+    <img class="absolute-kiki" src="images/Monchhichi.jfif" alt="kiki woula">
 
     <div id="paddingmenu">
         <a href="../index.php" class="menuTitle" id="home">ACCUEIL</a>

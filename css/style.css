@@ -859,10 +859,11 @@ nav a {
 }
 .absolute-kiki{
    position: absolute;
-   left: 250px;
-   bottom: 200px;
+   left: 0px;
+   bottom: 150px;
    opacity: 0;
    transition: 0.5s;
+   z-index: 0;
 }
 .absolute-kiki:hover{
    opacity: 1;

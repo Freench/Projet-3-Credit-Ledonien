@@ -239,7 +239,7 @@ input[type=number] {
 /* BOTTOM PART OF THE FOOTER */
 
 .botfooter {
-
+   padding-top: 3vh;
    background-color: #001d26;
    display: flex;
    justify-content: space-around;
@@ -1352,7 +1352,7 @@ nav a {
    .top-warning > p{
       margin-right : 0px;
       padding:0px}
-
+   }
 
 /* SECTION DISCOVERY */
 /* PLACEMENT OF THE DISCOVERY BLOCK */
@@ -1669,5 +1669,3 @@ nav a {
    text-align: center;
    line-height: 6vw;
 }
-
-

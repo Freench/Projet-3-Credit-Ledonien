@@ -1,5 +1,3 @@
-console.log(window.location)
-
 // Le script à pour but d'effectuer les calculs du simulateurs la difficulté est de détecter les deux derniers champs qui ont été modifiés et de calculer le 3ème
 //Initialisation variables
 let elementEmprun = document.getElementById('emprun');
@@ -78,7 +76,6 @@ document.getElementById("btn-retour-simulateur").onclick = function () {
 
 // MENU NAV
 let mainMenu = document.getElementById("menu-slider")
-console.log("   coucou")
         document.getElementById("menuburger").addEventListener("click", function(){
             if (mainMenu.style.display === "none"){
                 mainMenu.style.display = "block"
@@ -145,9 +142,7 @@ function showFramesD(n){
     for (j = 0; j < dotsD.length; j++) {
         dotsD[j].className = dotsD[j].className.replace(" activeD", "");
     }
-    console.log("frame = ", frameIndexD, old_open)
     if(old_open == null || old_open != frameIndexD || window.innerWidth> 1024){
-        console.log("yoyo")
         framesD[frameIndexD].style.display = "block";
         dotsD[frameIndexD].className += " activeD";
         old_open = frameIndexD;

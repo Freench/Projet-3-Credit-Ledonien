@@ -151,7 +151,7 @@ input[type=number] {
    color: #fff;
    font-family: OpenSans-Regular;
    font-size: 17px;
-   width:30%;
+   width: 170px;;
    height: fit-content;
    border:none;
    transition: 0.3s;
@@ -159,6 +159,7 @@ input[type=number] {
    padding-right: 20px;
    padding-top: 10px;
    padding-bottom: 10px;
+   
 }
 
 #knowmore:hover {
@@ -189,7 +190,7 @@ input[type=number] {
 
 .top-warning>p {
    margin: 0;
-   padding-right: 30px;
+   
 }
 
 
@@ -311,6 +312,7 @@ input[type=number] {
    border: solid 30px white;
    row-gap: 6%;
    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+  
    
 }
 
@@ -650,7 +652,7 @@ strong {
 
 .simulateur-main {
    width: 40%;
-   margin-left: 4%;
+   /* margin-left: 4%; */
    z-index: 2;
 }
 .simulateur-qui-main {
@@ -682,6 +684,7 @@ strong {
 
 .article2-main {
    width: 50vw;
+   
 }
 
 .hexagon{
@@ -996,6 +999,13 @@ nav a {
 
 @media screen and (max-width: 1024px) {
 
+   #simulateur h3 {
+      font-size: calc(10px + 2vw);
+   }
+   #simulateur p {
+      font-size: calc(10px + 1.1vw);
+   }
+
    .scroll,
    .scrollbar {
       display: none;
@@ -1181,6 +1191,10 @@ nav a {
    .article2 h2 {
       text-align: center;
    }
+   .article2{
+      padding: 0;
+      text-align: center;
+   }
    .article1{
       margin-bottom: 5vw;
    }
@@ -1266,7 +1280,9 @@ nav a {
    }
 
    .article2-main {
-      width: 100%;
+      width: 90%;
+      margin: auto;
+      display: flex;
 
    }
    .hexagon{

@@ -34,6 +34,6 @@
             
         </div>
         <div>
-                    <a href="#hexagon"><img class="hexagon" src="images/hexagon.png" alt=""></a>
+                    <a href="#logo"><img class="hexagon" src="images/hexagon.png" alt=""></a>
             </div>
 

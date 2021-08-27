@@ -86,10 +86,6 @@
     
     <script src="js/script.js"></script>
     </section>
-    <footer>
-        <?php include("html/footer.php")
-        ?>
-    </footer>
 </body>
 
 </html>

@@ -22,7 +22,7 @@
             <p class="title-banner">Le crédit responsable par <br /> le Crédit Lédonien</p>
         </div>
         <section class="article-container">
-            <div class="all-articles">
+            <div class="all-articles-qui">
                 <article>
                     <!-- FIRST ARTICLE -->
                     <h2>Le crédit Lédonien plus responsables ensemble.</h2>
@@ -71,7 +71,7 @@
                 </div>
                 </article>
             </div>
-            <div class="simulateur-main">
+            <div class="simulateur-qui-main">
                 <?php include("html/simulateur.php")
                 ?>
             </div>

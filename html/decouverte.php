@@ -25,7 +25,7 @@
             <div class="discovery-title">
             <h2 class="white">Découvrez nos<br> offres et services</h2>
             <p>Auto, Travaux, Déco, <span class="credit-ledonien-weight">le crédit Lédonien</span> propose une
-                    solution de<br> financement pour chacun de vos
+                    solution de financement pour chacun de vos
                     projets personnels.</p>
             </div>
 
@@ -33,7 +33,7 @@
             <div id="all-article-discovery">
             <div class="article-descovery" id="article01">
                 <div class="frame-decouverte fade-discovery">
-                    <img src="images/partnership-6541588_640.jpg" alt="image de l'article 1">
+                    <img src="images/partnership.jpg" alt="image de l'article 1">
                     <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
                         de voiture en association avec nos partenaires locaux</p>
                     <a href="#" class="link-line-discovery">En savoir plus</a>
@@ -43,8 +43,8 @@
             </div>
             <div class="article-descovery" id="article02">
                 <div class="frame-decouverte fade-discovery">
-                    <img src="images/partnership-6541588_640.jpg" alt="image de l'article 1">
-                    <p>Le <span class="credit-ledonien-weight">crédit aaaaaaaaaaaaLédonien </span>vous propose une large sélection
+                    <img src="images/real-estate.jpg" alt="image de l'article 1">
+                    <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
                         de voiture en association avec nos partenaires locaux</p>
                     <a href="#" class="link-line-discovery">En savoir plus</a>
                     <div id="et-la-lumiere-fut1"></div>
@@ -53,8 +53,8 @@
             </div>
             <div class="article-descovery" id="article03">
                 <div class="frame-decouverte fade-discovery">
-                    <img src="images/partnership-6541588_640.jpg" alt="image de l'article 1">
-                    <p>Le <span class="credit-ledonien-weight">crédit bbbbbbbbbbLédonien </span>vous propose une large sélection
+                    <img src="images/ec-cash.jpg" alt="image de l'article 1">
+                    <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
                         de voiture en association avec nos partenaires locaux</p>
                     <a href="#" class="link-line-discovery">En savoir plus</a>
                     <div id="et-la-lumiere-fut1"></div>
@@ -63,8 +63,8 @@
             </div>
             <div class="article-descovery" id="article04">
                 <div class="frame-decouverte fade-discovery">
-                    <img src="images/partnership-6541588_640.jpg" alt="image de l'article 1">
-                    <p>Le <span class="credit-ledonien-weight">crédit ccccccccccccccLédonien </span>vous propose une large sélection
+                    <img src="images/housebuilding.jpg" alt="image de l'article 1">
+                    <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
                         de voiture en association avec nos partenaires locaux</p>
                     <a href="#" class="link-line-discovery">En savoir plus</a>
                     <div id="et-la-lumiere-fut1"></div>

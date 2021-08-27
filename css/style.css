@@ -859,10 +859,11 @@ nav a {
 }
 .absolute-kiki{
    position: absolute;
-   left: 250px;
-   bottom: 200px;
+   left: 0px;
+   bottom: 150px;
    opacity: 0;
    transition: 0.5s;
+   z-index: 0;
 }
 .absolute-kiki:hover{
    opacity: 1;
@@ -1367,15 +1368,10 @@ nav a {
    /* header */
    .top-warning > p{
       margin-right : 0px;
-<<<<<<< HEAD
-      padding:0px}
-   }
-=======
       padding:0px
    }
 
 }
->>>>>>> 040dfa4c28c283df927a8931619374989fb61ace
 
 /* SECTION DISCOVERY */
 /* PLACEMENT OF THE DISCOVERY BLOCK */

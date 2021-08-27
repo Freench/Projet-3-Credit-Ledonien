@@ -151,7 +151,7 @@ input[type=number] {
    color: #fff;
    font-family: OpenSans-Regular;
    font-size: 17px;
-   width:30%;
+   width: 170px;;
    height: fit-content;
    border:none;
    transition: 0.3s;
@@ -159,6 +159,7 @@ input[type=number] {
    padding-right: 20px;
    padding-top: 10px;
    padding-bottom: 10px;
+   
 }
 
 #knowmore:hover {
@@ -188,8 +189,10 @@ input[type=number] {
 }
 
 .top-warning>p {
-   margin: 0;
+   margin: 0px;
+   margin-right: 5vw;
    padding-right: 30px;
+   line-height: 20px;
 }
 
 
@@ -311,6 +314,7 @@ input[type=number] {
    border: solid 30px white;
    row-gap: 6%;
    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+  
    
 }
 
@@ -387,6 +391,7 @@ strong {
    padding-left: 50px;
    justify-content: space-evenly;
    margin-bottom: 15vh;
+   
 
 }
 
@@ -399,7 +404,8 @@ strong {
 .all-articles-qui{
    display: flex;
    flex-direction: column;
-   max-width: 45vw;
+   width:50vw;
+   
 }
 
 .fakesim {
@@ -639,6 +645,7 @@ strong {
 .header-main {
    width: 100%;
    z-index: 9;
+   padding-bottom: 3vh;
 }
 
 .pret-main {
@@ -650,13 +657,14 @@ strong {
 
 .simulateur-main {
    width: 40%;
-   margin-left: 4%;
+   /* margin-left: 4%; */
    z-index: 2;
 }
 .simulateur-qui-main {
-   width: 40%;
-   margin-left: 0%;
-   z-index: 2;
+   width: 50vw;
+   margin-right: 20px;
+   margin-left: 20px;
+   z-index: 1;
 }
 
 .article1-main {
@@ -682,6 +690,7 @@ strong {
 
 .article2-main {
    width: 50vw;
+   
 }
 
 .hexagon{
@@ -996,6 +1005,26 @@ nav a {
 
 @media screen and (max-width: 1024px) {
 
+   .discovery-title p{
+      margin-left: 6vw !important;}
+
+   #simulateur h3 {
+      font-size: calc(10px + 2vw);
+   }
+   #simulateur p {
+      font-size: calc(10px + 1.1vw);
+   }
+   .all-articles-qui {
+      width : 90vw;
+      margin:auto;
+      order:2;
+
+   }
+   .simulateur-qui-main{
+      width: 90vw;
+      margin:auto;
+   }
+
    .scroll,
    .scrollbar {
       display: none;
@@ -1165,6 +1194,7 @@ nav a {
       flex-direction: column;
       align-items: center;
       padding-left: 0;
+      
    }
 
    .fakesim {
@@ -1179,6 +1209,10 @@ nav a {
 
    .article1 h2,
    .article2 h2 {
+      text-align: center;
+   }
+   .article2{
+      padding: 0;
       text-align: center;
    }
    .article1{
@@ -1228,7 +1262,6 @@ nav a {
    .pret-main {
       width: 100%;
       margin-bottom: 10vh;
-      
    }
 
    .simulateur-main {
@@ -1249,7 +1282,6 @@ nav a {
    .decouverte-main {
       width: 100%;
       height: 1050px;
-      
    }
 
    .photo-main {
@@ -1266,7 +1298,9 @@ nav a {
    }
 
    .article2-main {
-      width: 100%;
+      width: 90%;
+      margin: auto;
+      display: flex;
 
    }
    .hexagon{
@@ -1327,6 +1361,13 @@ nav a {
    .leftbotfooter {
       text-align: center;
    }
+
+   /* header */
+   .top-warning > p{
+      margin-right : 0px;
+      padding:0px
+   }
+
 }
 
 /* SECTION DISCOVERY */
@@ -1671,6 +1712,9 @@ nav a {
       align-items: center;
       padding-left:0;
    }
+   #container-fluid{
+      padding-right:0px;
+   }
    .fakesim{
       order:1;
    }
@@ -1683,11 +1727,10 @@ nav a {
    }
 }
 
-.title-banner {
+.title-banner{
    font-family: ITC_Eras_Bold;
    color: white;
    font-size: 5vw;
    text-align: center;
    line-height: 6vw;
-
 }

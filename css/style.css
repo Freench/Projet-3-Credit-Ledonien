@@ -711,7 +711,7 @@ strong {
 }
 /* SCROLLER */
 .scroll {
-   font-family: OpenSans-Regular;
+   font-family: OpenSans-Regular, Arial;
    font-size: 14px;
    color: #8c8a8a;
    transform: rotate(90deg);
@@ -768,7 +768,7 @@ nav a {
    border: 1px solid #008090;
    border-radius: 50%;
    color: #008090;
-   font-family: OpenSans-Regular;
+   font-family: OpenSans-Regular, Arial;
    font-size: 15px !important;
    display:block;
    margin:auto;
@@ -838,7 +838,7 @@ nav a {
 
 .menu {
    font-size: 11px;
-   font-family: OpenSans-Regular;
+   font-family: OpenSans-Regular, Arial;
    color: #008090;
 }
 
@@ -870,7 +870,7 @@ nav a {
    transition: 0.5s;
 }
 .menuTitle {
-   font-family: ITC_Eras_Bold;
+   font-family: ITC_Eras_Bold, Arial;
    font-size: 44px;
    color: #008090;
    text-align: end;
@@ -1407,14 +1407,14 @@ nav a {
 
 /*FONT AND WRITING SIZE FOR THE H2*/
 .discovery-title h2 {
-   font-family: ITC_Eras_Bold;
+   font-family: ITC_Eras_Bold, Arial;
    font-size: calc(10px + 1.6vw);
    margin: 30px 0px 10px 0px;
 }
 
 /*FONT AND WRITING SIZE FOR THE P*/
 .discovery-title p {
-   font-family: OpenSans-Regular;
+   font-family: OpenSans-Regular, Arial;
    font-size: 12px;
    margin: 0px;
    line-height: 20px;
@@ -1454,7 +1454,7 @@ nav a {
 
 /*FONT AND WRITING SIZE FOR THE H3*/
 #list-article h3 {
-   font-family: OpenSans-Light;
+   font-family: OpenSans-Light, Arial;
    font-size: 16px;
 }
 
@@ -1574,7 +1574,7 @@ nav a {
 }
 
 .article-descovery p {
-   font-family: OpenSans-Regular;
+   font-family: OpenSans-Regular, Arial;
    color: #dbdbdb;
    font-size: 14px;
    letter-spacing: 1px;
@@ -1586,7 +1586,7 @@ nav a {
 }
 
 .article-descovery a {
-   font-family: OpenSans-SemiBold;
+   font-family: OpenSans-SemiBold, Arial;
    font-size: 16px;
    color: #dbdbdb;
    text-decoration: none;
@@ -1690,7 +1690,7 @@ nav a {
 
 }
 .title-banner{
-   font-family: ITC_Eras_Bold;
+   font-family: ITC_Eras_Bold, Arial;
    color : white;
    font-size : 65px;
    text-align: center;
@@ -1729,7 +1729,7 @@ nav a {
 }
 
 .title-banner{
-   font-family: ITC_Eras_Bold;
+   font-family: ITC_Eras_Bold, Arial;
    color: white;
    font-size: 5vw;
    text-align: center;

@@ -835,7 +835,17 @@ nav a {
    position: absolute;
    z-index: 10;
 }
-
+.absolute-kiki{
+   position: absolute;
+   left: 250px;
+   bottom: 200px;
+   opacity: 0;
+   transition: 0.5s;
+}
+.absolute-kiki:hover{
+   opacity: 1;
+   transition: 0.5s;
+}
 .menuTitle {
    font-family: ITC_Eras_Bold;
    font-size: 44px;

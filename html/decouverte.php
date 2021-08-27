@@ -33,40 +33,48 @@
             <div id="all-article-discovery">
             <div class="article-descovery" id="article01">
                 <div class="frame-decouverte fade-discovery">
-                    <img src="images/partnership.jpg" alt="image de l'article 1">
-                    <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
-                        de voiture en association avec nos partenaires locaux</p>
-                    <a href="#" class="link-line-discovery">En savoir plus</a>
+                    <div class="shade">
+                        <img src="images/partnership.jpg" alt="image de l'article 1">
+                        <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
+                            de voiture en association avec nos partenaires locaux</p>
+                        <a href="#" class="link-line-discovery">En savoir plus</a>
+                    </div>   
                     <div id="et-la-lumiere-fut1"></div>
-                    <div id="et-la-lumiere-fut2"></div>
+                        <div id="et-la-lumiere-fut2"></div> 
                 </div>
             </div>
             <div class="article-descovery" id="article02">
                 <div class="frame-decouverte fade-discovery">
-                    <img src="images/real-estate.jpg" alt="image de l'article 1">
-                    <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
-                        de voiture en association avec nos partenaires locaux</p>
-                    <a href="#" class="link-line-discovery">En savoir plus</a>
+                    <div class="shade">
+                        <img src="images/real-estate.jpg" alt="image de l'article 1">
+                        <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
+                            de voiture en association avec nos partenaires locaux</p>
+                        <a href="#" class="link-line-discovery">En savoir plus</a>
+                    </div>
                     <div id="et-la-lumiere-fut1"></div>
-                    <div id="et-la-lumiere-fut2"></div>
+                        <div id="et-la-lumiere-fut2"></div>
                 </div>
             </div>
             <div class="article-descovery" id="article03">
                 <div class="frame-decouverte fade-discovery">
-                    <img src="images/ec-cash.jpg" alt="image de l'article 1">
-                    <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
-                        de voiture en association avec nos partenaires locaux</p>
-                    <a href="#" class="link-line-discovery">En savoir plus</a>
+                    <div class="shade">
+                        <img src="images/ec-cash.jpg" alt="image de l'article 1">
+                        <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
+                            de voiture en association avec nos partenaires locaux</p>
+                        <a href="#" class="link-line-discovery">En savoir plus</a>   
+                    </div>
                     <div id="et-la-lumiere-fut1"></div>
-                    <div id="et-la-lumiere-fut2"></div>
-                </div>
+                <div id="et-la-lumiere-fut2"></div>                
+                </div>    
             </div>
             <div class="article-descovery" id="article04">
                 <div class="frame-decouverte fade-discovery">
-                    <img src="images/housebuilding.jpg" alt="image de l'article 1">
-                    <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
-                        de voiture en association avec nos partenaires locaux</p>
-                    <a href="#" class="link-line-discovery">En savoir plus</a>
+                    <div class="shade">
+                        <img src="images/housebuilding.jpg" alt="image de l'article 1">
+                        <p>Le <span class="credit-ledonien-weight">crédit Lédonien </span>vous propose une large sélection
+                            de voiture en association avec nos partenaires locaux</p>
+                        <a href="#" class="link-line-discovery">En savoir plus</a>
+                    </div>
                     <div id="et-la-lumiere-fut1"></div>
                     <div id="et-la-lumiere-fut2"></div>
                 </div>

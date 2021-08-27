@@ -25,7 +25,7 @@
             <div class="discovery-title">
             <h2 class="white">Découvrez nos<br> offres et services</h2>
             <p>Auto, Travaux, Déco, <span class="credit-ledonien-weight">le crédit Lédonien</span> propose une
-                    solution de<br> financement pour chacun de vos
+                    solution de financement pour chacun de vos
                     projets personnels.</p>
             </div>
 

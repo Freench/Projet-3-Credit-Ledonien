@@ -42,12 +42,12 @@
         </div>
         <div class="mensualites-et-duree">
             <div class="mensualites-ou-duree mr5">
-                <p >Mensualités</p>
+                <p class="label-simulateur">Mensualités</p>
                 <input type="number" id="mensualites">
                 <p class="consigne" >De 10 à 12 000 €</p>
             </div>
             <div class="mensualites-ou-duree">
-                <p>Ou durée</p>
+                <p class="label-simulateur">Ou durée</p>
                 <input type="number" id="duree">
                 <p class="consigne">De 6 à 84 mois</p>
             </div>

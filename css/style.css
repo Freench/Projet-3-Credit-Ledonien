@@ -645,6 +645,7 @@ strong {
 .header-main {
    width: 100%;
    z-index: 9;
+   padding-bottom: 3vh;
 }
 
 .pret-main {
@@ -1004,6 +1005,9 @@ nav a {
 
 @media screen and (max-width: 1024px) {
 
+   .discovery-title p{
+      margin-left: 6vw !important;}
+
    #simulateur h3 {
       font-size: calc(10px + 2vw);
    }
@@ -1258,7 +1262,6 @@ nav a {
    .pret-main {
       width: 100%;
       margin-bottom: 10vh;
-      
    }
 
    .simulateur-main {
@@ -1279,7 +1282,6 @@ nav a {
    .decouverte-main {
       width: 100%;
       height: 1050px;
-      
    }
 
    .photo-main {
@@ -1364,7 +1366,7 @@ nav a {
    .top-warning > p{
       margin-right : 0px;
       padding:0px}
-}
+
 
 /* SECTION DISCOVERY */
 /* PLACEMENT OF THE DISCOVERY BLOCK */
@@ -1677,11 +1679,12 @@ nav a {
    }
 }
 
-.title-banner {
+.title-banner{
    font-family: ITC_Eras_Bold;
    color: white;
    font-size: 5vw;
    text-align: center;
    line-height: 6vw;
-
 }
+
+

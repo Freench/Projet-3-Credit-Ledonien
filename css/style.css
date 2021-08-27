@@ -1442,14 +1442,14 @@ nav a {
    transition: 1s;
 }
 
-.buttom-article:hover {
+/* .buttom-article:hover {
    transform: translateX(20px);
    transition: 0.5s;
-}
+} */
 
-.buttom-article:hover:after {
+/* .buttom-article:hover:after {
    transition: 1s;
-}
+} */
 
 /*BUTTOM-ARTICLE END*/
 
@@ -1492,6 +1492,33 @@ nav a {
    height: 45%;
    width: 100%;
    z-index: -1;
+}
+
+.shade {
+   -webkit-animation-name: shade;
+   -webkit-animation-duration: 0.5s;
+   animation-name: shade;
+   animation-duration: 0.5s;
+}
+
+@-webkit-keyframes shade {
+   from {
+      opacity: 0.4;
+   }
+
+   to {
+      opacity: 1;
+   }
+}
+
+@keyframes shade {
+   from {
+      opacity: 0.4;
+   }
+
+   to {
+      opacity: 1;
+   }
 }
 
 /* PLACEMENT OF ALL IMAGES */
@@ -1547,6 +1574,23 @@ nav a {
    padding-right:80px;
 }
 @media screen and (max-width: 1024px){
+   /* .decouverte-main{
+      height: 350px;
+   } */
+
+   .buttom-article{
+      display: flex;
+      justify-content: center;
+      width: 100%!important;
+
+   }
+   .activeD,
+.buttom-article:hover {
+   color: rgb(255, 255, 255, 1);
+   transform: translateX(0px);
+   transition: 1s;
+}
+   
    #et-la-lumiere-fut1{
       display: none;
    }
@@ -1569,7 +1613,9 @@ nav a {
       top: 0;
    }
    .frame-decouverte{
-      height: 500px;
+      clip-path: inset(0 0 0 0);
+      height: 50vh!important;
+      width: 80vw;
    }
 
    .discovery-title h2{

@@ -391,6 +391,7 @@ strong {
    padding-left: 50px;
    justify-content: space-evenly;
    margin-bottom: 15vh;
+   
 
 }
 
@@ -403,7 +404,8 @@ strong {
 .all-articles-qui{
    display: flex;
    flex-direction: column;
-   max-width: 45vw;
+   width:50vw;
+   
 }
 
 .fakesim {
@@ -658,9 +660,10 @@ strong {
    z-index: 2;
 }
 .simulateur-qui-main {
-   width: 40%;
-   margin-left: 0%;
-   z-index: 2;
+   width: 50vw;
+   margin-right: 20px;
+   margin-left: 20px;
+   z-index: 1;
 }
 
 .article1-main {
@@ -1007,6 +1010,16 @@ nav a {
    #simulateur p {
       font-size: calc(10px + 1.1vw);
    }
+   .all-articles-qui {
+      width : 90vw;
+      margin:auto;
+      order:2;
+
+   }
+   .simulateur-qui-main{
+      width: 90vw;
+      margin:auto;
+   }
 
    .scroll,
    .scrollbar {
@@ -1177,6 +1190,7 @@ nav a {
       flex-direction: column;
       align-items: center;
       padding-left: 0;
+      
    }
 
    .fakesim {
@@ -1647,6 +1661,9 @@ nav a {
       flex-direction: column;
       align-items: center;
       padding-left:0;
+   }
+   #container-fluid{
+      padding-right:0px;
    }
    .fakesim{
       order:1;

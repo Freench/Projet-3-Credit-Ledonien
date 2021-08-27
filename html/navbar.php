@@ -1,8 +1,6 @@
- 
 
- 
         <nav>
-            <a href="#logo"><button type="button" id="menuburger">
+            <a href="#logo"><button name="menuburger" type="button" id="menuburger">
                 <div class="breadtop"></div>
                 <div class="steak"></div>
                 <div class="breadbot"></div>
@@ -12,8 +10,8 @@
             </button></a>
             <!-- Nav buttons -->
             <input type="button" class="lang" value="FR">
-            <button type="button" class="call"><a href="#" id="phone"><img src="images/call.svg" alt="Icône de téléphone" ></a></button>
-            <button type="button" class="call"><a href="#" id="search"><img src="images/loupe.svg" alt="Icône de loupe" ></a></button>
+            <button type="button" name="call" class="call"><a href="#" id="phone"><img src="images/call.svg" alt="Icône de téléphone" ></a></button>
+            <button type="button" name="search" class="call"><a href="#" id="search"><img src="images/loupe.svg" alt="Icône de loupe" ></a></button>
             <p class="scroll">SCROLL</p>
             <div class="scrollbar"></div>
             

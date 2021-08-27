@@ -641,6 +641,7 @@ strong {
 .header-main {
    width: 100%;
    z-index: 9;
+   padding-bottom: 3vh;
 }
 
 .pret-main {
@@ -998,6 +999,10 @@ nav a {
 
 @media screen and (max-width: 1024px) {
 
+   .discovery-title p{
+      margin-left: 6vw !important;
+   }
+
    .scroll,
    .scrollbar {
       display: none;
@@ -1230,7 +1235,6 @@ nav a {
    .pret-main {
       width: 100%;
       margin-bottom: 10vh;
-      
    }
 
    .simulateur-main {
@@ -1251,7 +1255,6 @@ nav a {
    .decouverte-main {
       width: 100%;
       height: 1050px;
-      
    }
 
    .photo-main {

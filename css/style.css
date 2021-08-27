@@ -151,7 +151,7 @@ input[type=number] {
    color: #fff;
    font-family: OpenSans-Regular;
    font-size: 17px;
-   width:30%;
+   width: 170px;;
    height: fit-content;
    border:none;
    transition: 0.3s;
@@ -159,6 +159,7 @@ input[type=number] {
    padding-right: 20px;
    padding-top: 10px;
    padding-bottom: 10px;
+   
 }
 
 #knowmore:hover {
@@ -313,6 +314,7 @@ input[type=number] {
    border: solid 30px white;
    row-gap: 6%;
    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+  
    
 }
 
@@ -653,7 +655,7 @@ strong {
 
 .simulateur-main {
    width: 40%;
-   margin-left: 4%;
+   /* margin-left: 4%; */
    z-index: 2;
 }
 .simulateur-qui-main {
@@ -685,6 +687,7 @@ strong {
 
 .article2-main {
    width: 50vw;
+   
 }
 
 .hexagon{
@@ -1000,7 +1003,13 @@ nav a {
 @media screen and (max-width: 1024px) {
 
    .discovery-title p{
-      margin-left: 6vw !important;
+      margin-left: 6vw !important;}
+
+   #simulateur h3 {
+      font-size: calc(10px + 2vw);
+   }
+   #simulateur p {
+      font-size: calc(10px + 1.1vw);
    }
 
    .scroll,
@@ -1188,6 +1197,10 @@ nav a {
    .article2 h2 {
       text-align: center;
    }
+   .article2{
+      padding: 0;
+      text-align: center;
+   }
    .article1{
       margin-bottom: 5vw;
    }
@@ -1271,7 +1284,9 @@ nav a {
    }
 
    .article2-main {
-      width: 100%;
+      width: 90%;
+      margin: auto;
+      display: flex;
 
    }
    .hexagon{
@@ -1337,7 +1352,7 @@ nav a {
    .top-warning > p{
       margin-right : 0px;
       padding:0px}
-}
+
 
 /* SECTION DISCOVERY */
 /* PLACEMENT OF THE DISCOVERY BLOCK */
@@ -1647,11 +1662,12 @@ nav a {
    }
 }
 
-.title-banner {
+.title-banner{
    font-family: ITC_Eras_Bold;
    color: white;
    font-size: 5vw;
    text-align: center;
    line-height: 6vw;
-
 }
+
+

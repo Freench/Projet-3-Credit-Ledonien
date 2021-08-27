@@ -42,7 +42,7 @@ button {
 h2 {
    color: #001d26;
    font-family: ITC_Eras_Bold;
-   font-size: 42px;
+   font-size: calc(10px + 1.8vw);
    line-height: 47px;
 }
 
@@ -141,7 +141,7 @@ input[type=number] {
 .article2 h2 {
    color: #001d26;
    font-family: ITC_Eras_Bold;
-   font-size: 40px;
+   font-size: calc(10px + 1.8vw);
    margin: 0px;
 }
 
@@ -150,22 +150,19 @@ input[type=number] {
    color: #fff;
    font-family: OpenSans-Regular;
    font-size: 17px;
-   width:fit-content;
+   width:30%;
    height: fit-content;
    border:none;
    transition: 0.3s;
    padding-left: 20px;
    padding-right: 20px;
    padding-top: 10px;
-   padding-bottom: 10px; 
-   
-   
-
+   padding-bottom: 10px;
 }
 
 #knowmore:hover {
    cursor: pointer;
-   background-color:#15a9bd;   
+   background-color:#15a9bd;
 }
 #knowmore:active{
    background-color: #001d26;
@@ -321,8 +318,8 @@ input[type=number] {
    flex-direction: column;
    align-items: flex-start;
    background-color: white;
-   height: 85vh;
-   row-gap: 6%;
+   /* height: 85vh; */
+   /* row-gap: 4%; */
    border: solid 30px white;
    box-shadow: 0px 0px 10px rgb(204, 204, 204);
 }
@@ -331,6 +328,10 @@ input[type=number] {
 #simulateur-cliked h2,
 #simulateur p {
    margin: 0px;
+}
+
+#simulateur p {
+   font-size: calc(5px + 1vw);
 }
 
 #simulateur h3 {
@@ -383,7 +384,7 @@ strong {
 .article-container {
    display: flex;
    padding-left: 50px;
-   justify-content: space-between;
+   justify-content: space-evenly;
    margin-bottom: 15vh;
 
 }
@@ -392,6 +393,12 @@ strong {
    display: flex;
    flex-direction: column;
    max-width: 50vw;
+}
+
+.all-articles-qui{
+   display: flex;
+   flex-direction: column;
+   max-width: 45vw;
 }
 
 .fakesim {
@@ -481,6 +488,8 @@ strong {
 .label-simulateur {
    color: rgb(100, 100, 100);
    font-family: OpenSans-SemiBold;
+   font-size: 20px;
+   margin-bottom: 0px;
 }
 
 .sous-titre {
@@ -633,6 +642,11 @@ strong {
    margin-left: 4%;
    z-index: 2;
 }
+.simulateur-qui-main {
+   width: 40%;
+   margin-left: 0%;
+   z-index: 2;
+}
 
 .article1-main {
    width: 37%;
@@ -641,7 +655,7 @@ strong {
 }
 
 .decouverte-main {
-   width: 63%;
+   width: 61%;
 }
 
 .photo-main img {
@@ -1362,7 +1376,7 @@ nav a {
 }
 #list-article{
    width: 80%;
-   padding-left: 70px;
+   padding-left: 100px;
 }
 
 /*FONT AND WRITING SIZE FOR THE H3*/

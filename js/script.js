@@ -66,7 +66,7 @@ function calculSimulateur(dernierModifier) {
         }
     }
 }
-// Script 2:
+// Ouverture fermeture du simulateur-cliked:
 document.getElementById("btn-pret-personnel").onclick = function () {
     document.getElementById('simulateur').style.display = 'none';
     document.getElementById('simulateur-cliked').style.display = 'flex';
@@ -81,11 +81,9 @@ let mainMenu = document.getElementById("menu-slider")
 console.log("   coucou")
         document.getElementById("menuburger").addEventListener("click", function(){
             if (mainMenu.style.display === "none"){
-                
                 mainMenu.style.display = "block"
-                document.body.style.overflow = "hidden"    
+                document.body.style.overflow = "hidden"
             } else {
-                
                 mainMenu.style.display = "none"
                 document.body.style.overflow = "auto"
             }
@@ -139,12 +137,13 @@ let frameIndex = 0;
         // END NAV
 let frameIndexD = 0;
 showFramesD(frameIndexD);
+var old_open = 0;
 
 function currentFrameD(n) {
     showFramesD(frameIndexD = n);
 }
 
-function showFramesD(n) {
+function showFramesD(n){
     let j;
     let framesD = document.getElementsByClassName("frame-decouverte");
     let dotsD = document.getElementsByClassName("buttom-article");
@@ -155,12 +154,18 @@ function showFramesD(n) {
     for (j = 0; j < dotsD.length; j++) {
         dotsD[j].className = dotsD[j].className.replace(" activeD", "");
     }
-    framesD[frameIndexD].style.display = "block";
-    dotsD[frameIndexD].className += " activeD";
+    console.log("frame = ", frameIndexD, old_open)
+    if(old_open == null || old_open != frameIndexD || window.innerWidth> 1024){
+        console.log("yoyo")
+        framesD[frameIndexD].style.display = "block";
+        dotsD[frameIndexD].className += " activeD";
+        old_open = frameIndexD;
+    }else{old_open = null};
+
 }
 
 
-
+// Version responsive de découvertes
 let big = true;
 if (window.innerWidth <= 1024){
     big = false;
@@ -173,7 +178,6 @@ window.addEventListener('resize', function(){
 function switchButtonPosition(){
 
     let discoveryAll = document.getElementById('discovery-all');
-    let saveDiscoveryAll = document.getElementById('discovery-all').innerHTML;
     let listArticle = document.getElementById("list-article");
     let article1 = document.getElementById("article01");
     let article2 = document.getElementById("article02");

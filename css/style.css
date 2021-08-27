@@ -391,6 +391,7 @@ strong {
    padding-left: 50px;
    justify-content: space-evenly;
    margin-bottom: 15vh;
+   
 
 }
 
@@ -403,7 +404,8 @@ strong {
 .all-articles-qui{
    display: flex;
    flex-direction: column;
-   max-width: 45vw;
+   width:50vw;
+   
 }
 
 .fakesim {
@@ -659,9 +661,10 @@ strong {
    z-index: 2;
 }
 .simulateur-qui-main {
-   width: 40%;
-   margin-left: 0%;
-   z-index: 2;
+   width: 50vw;
+   margin-right: 20px;
+   margin-left: 20px;
+   z-index: 1;
 }
 
 .article1-main {
@@ -1011,6 +1014,16 @@ nav a {
    #simulateur p {
       font-size: calc(10px + 1.1vw);
    }
+   .all-articles-qui {
+      width : 90vw;
+      margin:auto;
+      order:2;
+
+   }
+   .simulateur-qui-main{
+      width: 90vw;
+      margin:auto;
+   }
 
    .scroll,
    .scrollbar {
@@ -1181,6 +1194,7 @@ nav a {
       flex-direction: column;
       align-items: center;
       padding-left: 0;
+      
    }
 
    .fakesim {
@@ -1351,8 +1365,15 @@ nav a {
    /* header */
    .top-warning > p{
       margin-right : 0px;
+<<<<<<< HEAD
       padding:0px}
    }
+=======
+      padding:0px
+   }
+
+}
+>>>>>>> 040dfa4c28c283df927a8931619374989fb61ace
 
 /* SECTION DISCOVERY */
 /* PLACEMENT OF THE DISCOVERY BLOCK */
@@ -1467,14 +1488,14 @@ nav a {
    transition: 1s;
 }
 
-.buttom-article:hover {
+/* .buttom-article:hover {
    transform: translateX(20px);
    transition: 0.5s;
-}
+} */
 
-.buttom-article:hover:after {
+/* .buttom-article:hover:after {
    transition: 1s;
-}
+} */
 
 /*BUTTOM-ARTICLE END*/
 
@@ -1517,6 +1538,33 @@ nav a {
    height: 45%;
    width: 100%;
    z-index: -1;
+}
+
+.shade {
+   -webkit-animation-name: shade;
+   -webkit-animation-duration: 0.5s;
+   animation-name: shade;
+   animation-duration: 0.5s;
+}
+
+@-webkit-keyframes shade {
+   from {
+      opacity: 0.4;
+   }
+
+   to {
+      opacity: 1;
+   }
+}
+
+@keyframes shade {
+   from {
+      opacity: 0.4;
+   }
+
+   to {
+      opacity: 1;
+   }
 }
 
 /* PLACEMENT OF ALL IMAGES */
@@ -1572,6 +1620,23 @@ nav a {
    padding-right:80px;
 }
 @media screen and (max-width: 1024px){
+   /* .decouverte-main{
+      height: 350px;
+   } */
+
+   .buttom-article{
+      display: flex;
+      justify-content: center;
+      width: 100%!important;
+
+   }
+   .activeD,
+.buttom-article:hover {
+   color: rgb(255, 255, 255, 1);
+   transform: translateX(0px);
+   transition: 1s;
+}
+   
    #et-la-lumiere-fut1{
       display: none;
    }
@@ -1594,7 +1659,9 @@ nav a {
       top: 0;
    }
    .frame-decouverte{
-      height: 500px;
+      clip-path: inset(0 0 0 0);
+      height: 50vh!important;
+      width: 80vw;
    }
 
    .discovery-title h2{
@@ -1649,6 +1716,9 @@ nav a {
       flex-direction: column;
       align-items: center;
       padding-left:0;
+   }
+   #container-fluid{
+      padding-right:0px;
    }
    .fakesim{
       order:1;

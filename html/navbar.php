@@ -1,23 +1,5 @@
  
- <div id="menu-slider" class="slidemenu" style="display:none;">
-    
-        <div class="banner">
-        <a href="../index.php"><img src="images/logo_top.png" alt="Logo du Crédit Lédonien" id="logo"></a>
-            <div class="top-warning">
-                <p>Un crédit vous engage et doit être remboursé.</p>
-                <p>Vérifiez vos capacités de remboursement avant de vous engager.</p>
-            </div>
-        </div>
-    
-        <img class="absolute-kiki" src="images/Monchhichi.jfif" alt="kiki woula">
 
-        <div id="paddingmenu">
-            <a href="../index.php" class="menuTitle" id="home">ACCUEIL</a>
-            <a href="qui.php" class="menuTitle" id="who">QUI SOMMES-NOUS?</a>
-            <a href="#" class="menuTitle" id="offers">NOS OFFRES</a>
-            <a href="#" class="menuTitle" id="contactus">CONTACTEZ-NOUS</a>
-        </div>
-    </div>
  
         <nav>
             <a href="#logo"><button type="button" id="menuburger">
@@ -36,6 +18,25 @@
             <div class="scrollbar"></div>
             
         </nav>
+<div id="menu-slider" class="slidemenu" style="display:none;">
+    
+    <div class="banner">
+    <a href="../index.php"><img src="images/logo_top.png" alt="Logo du Crédit Lédonien"></a>
+        <div class="top-warning">
+            <p>Un crédit vous engage et doit être remboursé.</p>
+            <p>Vérifiez vos capacités de remboursement avant de vous engager.</p>
+        </div>
+    </div>
+
+    <!-- <img class="absolute-kiki" src="images/Monchhichi.jfif" alt="kiki woula"> -->
+
+    <div id="paddingmenu">
+        <a href="../index.php" class="menuTitle" id="home">ACCUEIL</a>
+        <a href="qui.php" class="menuTitle" id="who">QUI SOMMES-NOUS?</a>
+        <a href="#" class="menuTitle" id="offers">NOS OFFRES</a>
+        <a href="#" class="menuTitle" id="contactus">CONTACTEZ-NOUS</a>
+    </div>
+</div>
         
     
         <!-- Shadow behind the nav -->

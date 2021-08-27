@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preload" as="image" href="images/money-2724235_1920.jpg" />
     <link rel="preload" href="/fonts/OpenSans-Bold.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/ErasBoldITC.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/OpenSans-SemiBold.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/OpenSans-Regular.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="shortcut icon href="favicon.ico">
     <title>Crédit Lédonien - Le crédit responsable</title>
     <meta name="description"

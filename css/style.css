@@ -188,7 +188,8 @@ input[type=number] {
 }
 
 .top-warning>p {
-   margin: 0;
+   margin: 0px;
+   margin-right: 5vw;
    padding-right: 30px;
    line-height: 20px;
 }
@@ -1328,6 +1329,11 @@ nav a {
    .leftbotfooter {
       text-align: center;
    }
+
+   /* header */
+   .top-warning > p{
+      margin-right : 0px;
+      padding:0px}
 }
 
 /* SECTION DISCOVERY */

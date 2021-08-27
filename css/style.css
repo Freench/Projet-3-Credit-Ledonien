@@ -867,6 +867,7 @@ nav a {
    display: block;
    text-decoration: none;
 }
+
 #offers:hover{
    transform:translateY(-4%);
    transition: 0.2s;
@@ -874,16 +875,16 @@ nav a {
 #offers::after{
    content:"";
    width: 0px;
-   height: 2px;
+   height: 0.2vh;
    background:#008090;
    display: block;
-   transition: 0.2s;
-   position:absolute;
-   right:15vw;
+   transition:  0.2s;
+   position: absolute;
+   right: 15vw;
    
 }
 #offers:hover::after{
-   width : 15vw;
+   width : 300px;
    transition: 0.2s;
 }
 #offers{
@@ -896,16 +897,16 @@ nav a {
 #home::after{
    content:"";
    width: 0px;
-   height: 2px;
+   height: 0.2vh;
    background:#008090;
    display: block;
    transition: 0.2s;
-   position:absolute;
-   right:250px;
+   position: absolute;
+   right: 15vw;
    
 }
 #home:hover::after{
-   width : 205px;
+   width : 250px;
    transition: 0.2s;
 }
 #home{
@@ -918,16 +919,16 @@ nav a {
 #who::after{
    content:"";
    width: 0px;
-   height: 2px;
+   height: 0.2vh;
    background:#008090;
    display: block;
    transition: 0.2s;
-   position:absolute;
-   right:250px;
+   position: absolute;
+   right: 15vw;
    
 }
 #who:hover::after{
-   width : 460px;
+   width : 490px;
    transition: 0.2s;
 }
 #who{
@@ -943,16 +944,16 @@ nav a {
 #contactus::after{
    content:"";
    width: 0px;
-   height: 2px;
+   height: 0.2vh;
    background:#008090;
    display: block;
    transition: 0.2s;
-   position:absolute;
-   right:250px;
+   position: absolute;
+   right: 15vw;
    
 }
 #contactus:hover::after{
-   width : 420px;
+   width : 460px;
    transition: 0.2s;
 }
 
@@ -1014,6 +1015,100 @@ nav a {
       display:flex;
       border-top: 2px solid #008090;
 
+   }
+   /*KIKI IS DISABLED*/
+   .absolute-kiki{
+      display: none;
+   }
+
+
+   #offers:hover{
+      transform:translateY(-4%);
+      transition: 0.2s;
+   }
+   #offers::after{
+      content:"";
+      width: 0px;
+      height: 0.2vh;
+      background:#008090;
+      display: block;
+      transition:  0.2s;
+      position: absolute;
+      right: 15vw;
+      
+   }
+   #offers:hover::after{
+      width : 220px;
+      transition: 0.2s;
+   }
+   #offers{
+      transition: 0.4s;
+   }
+   #home:hover{
+      transform:translateY(-4%);
+      transition: 0.2s;
+   }
+   #home::after{
+      content:"";
+      width: 0px;
+      height: 0.2vh;
+      background:#008090;
+      display: block;
+      transition: 0.2s;
+      position: absolute;
+      right: 15vw;
+      
+   }
+   #home:hover::after{
+      width : 170px;
+      transition: 0.2s;
+   }
+   #home{
+      transition: 0.4s;
+   }
+   #who:hover{
+      transform:translateY(-4%);
+      transition: 0.2s;
+   }
+   #who::after{
+      content:"";
+      width: 0px;
+      height: 0.2vh;
+      background:#008090;
+      display: block;
+      transition: 0.2s;
+      position: absolute;
+      right: 15vw;
+      
+   }
+   #who:hover::after{
+      width : 350px;
+      transition: 0.2s;
+   }
+   #who{
+      transition: 0.4s;
+   }
+   #contactus:hover{
+      transform:translateY(-4%);
+      transition: 0.2s;
+   }
+   #contactus{
+      transition: 0.4s;
+   }
+   #contactus::after{
+      content:"";
+      width: 0px;
+      height: 0.2vh;
+      background:#008090;
+      display: block;
+      transition: 0.2s;
+      position: absolute;
+      right: 15vw;
+      
+   }
+   #contactus:hover::after{
+      width : 330px;
+      transition: 0.2s;
    }
 
    #menuburger {

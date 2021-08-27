@@ -42,7 +42,7 @@ button {
 h2 {
    color: #001d26;
    font-family: ITC_Eras_Bold;
-   font-size: 42px;
+   font-size: calc(10px + 1.8vw);
    line-height: 47px;
 }
 
@@ -141,7 +141,7 @@ input[type=number] {
 .article2 h2 {
    color: #001d26;
    font-family: ITC_Eras_Bold;
-   font-size: 40px;
+   font-size: calc(10px + 1.8vw);
    margin: 0px;
 }
 
@@ -655,7 +655,7 @@ strong {
 }
 
 .decouverte-main {
-   width: 63%;
+   width: 61%;
 }
 
 .photo-main img {

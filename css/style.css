@@ -189,6 +189,7 @@ input[type=number] {
 .top-warning>p {
    margin: 0;
    padding-right: 30px;
+   line-height: 20px;
 }
 
 

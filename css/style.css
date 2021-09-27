@@ -224,6 +224,7 @@ input[type=number] {
    text-decoration: none;
    margin-right: 15px;
    transition: 0.5s;
+   color: white;
 }
 
 
@@ -761,6 +762,7 @@ strong {
 nav a {
    text-decoration: none;
 }
+
 .lang {
    height: 30px;
    width: 30px;

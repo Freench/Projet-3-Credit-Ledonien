@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+<<<<<<< HEAD
     <link rel="shortcut icon href=" favicon.ico">
+=======
+    <link rel="shortcut icon href="favicon.ico">
+>>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
     <link rel="preload" href="/fonts/OpenSans-Bold.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="/fonts/ErasBoldITC.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="/fonts/OpenSans-SemiBold.ttf" as="font" type="font/ttf" crossorigin />
@@ -72,9 +76,15 @@
                     <h2>Écouter, proposer, accompagner chacun d’entre vous.</h2>
                     <p>Parce que chaque besoin de financement est différent, Cetelem s’engage chaque jour à vous
                         accompagner afin de vous proposer une solution adaptée à votre situation.</p>
+<<<<<<< HEAD
                     <div>
                         <img class="hexagon" src="images/hexagon.png" alt="">
                     </div>
+=======
+                        <div>
+                    <img class="hexagon" src="images/hexagon.png" alt="">
+                </div>
+>>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
                 </article>
             </div>
             <div class="simulateur-qui-main">
@@ -89,7 +99,11 @@
         </footer>
 
     </div>
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
     <script src="js/script.js"></script>
     </section>
 </body>

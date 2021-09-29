@@ -7,12 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preload" as="image" href="images/money-2724235_1920.jpg" />
+<<<<<<< HEAD
     <link rel="preload" href="./fonts/OpenSans-Bold.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="./fonts/ErasBoldITC.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="./fonts/OpenSans-SemiBold.ttf" as="font" type="font/ttf" crossorigin />
     <!-- <link rel="preload" href="./fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin /> -->
     <link rel="preload" href="./fonts/OpenSans-Regular.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="shortcut icon" href="./favicon.ico">
+=======
+    <link rel="preload" href="/fonts/OpenSans-Bold.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/ErasBoldITC.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/OpenSans-SemiBold.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/OpenSans-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="shortcut icon href="favicon.ico">
+>>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
     <title>Crédit Lédonien - Le crédit responsable</title>
     <meta name="description"
         content="Essayez notre simulateur de crédit, nous avons vos solution de crédit et nous vous accompagnons vers une solution responsable.">
@@ -20,7 +29,11 @@
 
 
 <body>
+<<<<<<< HEAD
     <?php include('html/navbar.php')
+=======
+<?php include('html/navbar.php')
+>>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
         ?>
     <div class="sur-flex">
 
@@ -46,26 +59,43 @@
                 ?>
             </div>
             <div class="photo-main">
+<<<<<<< HEAD
                 <img src="images/money-arbre.png"
                     alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
             </div>
             <div class="photo-main-responsive">
                 <img src="images/money-2724235_1920.jpg"
                     alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
+=======
+                <img src="images/money-arbre.png" alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
+            </div>
+            <div class="photo-main-responsive">
+                <img src="images/money-2724235_1920.jpg" alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
+>>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
             </div>
             <div class="article2-main">
                 <?php include('html/article2.php')
                 ?>
             </div>
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
             <div class="footer-main">
                 <?php include('html/footer.php')
                 ?>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 
+=======
+    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+>>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
 </html>

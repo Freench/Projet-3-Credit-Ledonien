@@ -27,5 +27,5 @@
             </p>
             
             <input type ="button" name="knowmore" id="knowmore" value="En savoir plus"> 
-            
+           
         </div>

@@ -7,7 +7,6 @@
    font-family: OpenSans-Bold;
    src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
 }
-
 @font-face {
    font-family: OpenSans-Italic;
    src: url(../fonts/OpenSans-Italic.ttf) format("truetype");
@@ -17,7 +16,6 @@
    font-family: OpenSans-Light;
    src: url(../fonts//OpenSans-Light.ttf) format("truetype");
 }
-
 @font-face {
    font-family: OpenSans-Regular;
    src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
@@ -151,7 +149,6 @@ input {
    padding-right: 20px;
    padding-top: 10px;
    padding-bottom: 10px;
-
 }
 
 #knowmore:hover {
@@ -386,7 +383,6 @@ strong {
    padding-left: 50px;
    justify-content: space-evenly;
    margin-bottom: 15vh;
-
 
 }
 
@@ -643,7 +639,6 @@ strong {
    /* margin-left: 4%; */
    z-index: 2;
 }
-
 .simulateur-qui-main {
    width: 50vw;
    margin-right: 20px;
@@ -849,7 +844,6 @@ nav a {
    position: absolute;
    z-index: 10;
 }
-
 .menuTitle {
    font-family: ITC_Eras_Bold, Arial;
    font-size: 44px;
@@ -1194,7 +1188,6 @@ nav a {
       flex-direction: column;
       align-items: center;
       padding-left: 0;
-
    }
 
    .fakesim {
@@ -1410,7 +1403,6 @@ nav a {
    flex-direction: column;
    width: 55%;
 }
-
 .discovery-title {
    color: #dbdbdb;
    padding: 0px 50px 0px 0px;

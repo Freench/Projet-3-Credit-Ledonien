@@ -20,11 +20,7 @@
 
 
 <body>
-<<<<<<< HEAD
     <?php include('html/navbar.php')
-=======
-<?php include('html/navbar.php')
->>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
         ?>
     <div class="sur-flex">
 
@@ -50,43 +46,28 @@
                 ?>
             </div>
             <div class="photo-main">
-<<<<<<< HEAD
                 <img src="images/money-arbre.png"
                     alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
             </div>
             <div class="photo-main-responsive">
                 <img src="images/money-2724235_1920.jpg"
                     alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
-=======
-                <img src="images/money-arbre.png" alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
-            </div>
-            <div class="photo-main-responsive">
-                <img src="images/money-2724235_1920.jpg" alt="la photo des arbres qui sortent de l'argent parce que le capitalisme c'est bon pour l'environnement">
->>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
             </div>
             <div class="article2-main">
                 <?php include('html/article2.php')
                 ?>
             </div>
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
             <div class="footer-main">
                 <?php include('html/footer.php')
                 ?>
             </div>
         </div>
     </div>
-<<<<<<< HEAD
+    <div>
+        <img class="hexagon" src="images/hexagon.png" alt="">
+    </div>
 
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 
-=======
-    
-    <script type="text/javascript" src="js/script.js"></script>
-</body>
->>>>>>> c2a5b9a90063c9220aeab01160665e2d163dd313
 </html>
